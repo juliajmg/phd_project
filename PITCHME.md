@@ -43,7 +43,7 @@
   - Integrates natural perturbations in particles' direction of motion.  
 
 - Parámeters:
-Density $\rho$: Number of particles $N$ in a volume "R^d$" ($d$ is the dimension).
+Density $\rho$: Number of particles $N$ in a volume "$R^d$" ($d$ is the dimension).
 Velocity $v_{0}$
 Noise amplitude $\eta$
 (FUNCIÓN DE RUIDO)
