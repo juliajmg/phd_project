@@ -127,4 +127,114 @@ Hacer análisis de por qué ocurre esto!
 - After a $v_{0}$ threshold value, a phase transition compatible with a first-order transition is observed:
 
 ![](Phi_vs_v0_rho01a1_eta03a06_big.png)
-layout: top-right
+
+Note:
+Which means that with little increase in velocity, theres an increase of factor 10 in the polar order of the system.
+
+---
+
+The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
+
+Being able to rapidly increase group polarization by reaching a critical velocity value would be an advantaje for the group, specially in predation risk avoidance
+
+#### Even in the simplest model, order is achieved by increasing the system velocity.
+
+---
+#### FUTURE WORK
+
+1. Study the velocity induced phase transition in fish
+  - Experimental data of zebrafish (*Danio rerio*)
+  - The species exhibits swarming and schooling behaviors.
+
+2. Explore the effect of increasing velocity of only a fraction of particles on the observed phase-transition.
+  - Vicsek model
+  - ¿Adaptive strategy in natural systems?*
+
+Note:
+FOTO DE ZEBRAFISH
+Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.
+\* As a way of saving energy but still respond efficienty
+to perturbations.
+---
+
+## Kilobots
+- Simple low-cost swarm robot by the Self-organizing Systems Research Group at Harvard University.
+
+CARACTERÍSTICAS Y FOTO
+
++++
+
+Setup del overhead controller, kilobots y KiloGUI
+
+---
+
+- Kilobots have been used to study:
+
+1. Collective decision-making
+2. Space exploratin and eficiency in information transfer
+3. Collective transport of objects.
+
+FOTOS Y VIDEOS DE LOS ESTUDIOS: Valentini2016, Dimidov2016 Rubenstein2013
+
+---
+
+### GOAL
+
+- Implement and vary collective motion interaction-rules on kilobots to study leader-follower dynamics, and their impact on information transfer and collective decision-making processes.
+
+- Relate their behavior with those of animal collectives, and on the other
+
+- Contribute with collective algorithms with which robots swarms can efficiently fulfill complex tasks.
+
+
+---
+#### LOCALIZATION BY DISTANCE SENSING
+
+- Kilobots rely only on distance measuring to obtain relative positions and orientations of nearby robots.
+- They need information to collectively move.
+
+---
+
+### REACH ALGORITHM
+
+Purpose: For kilobots to follow each other, no matter their initial configuration.
+
+#### TRILATERATION
+-
+
+FIGURA 5: mejorarla para enseñar como se resuelve la ambiguedad, y luego como se acerca a el.
+![](reach_algorithm.png)
+Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, $d_{t}$ and the distance kilobot B moved from t-1 to t. $\beta$ angle is also shown.
+
+---
+
+#### RANDOM-WALK-BASED SEARCH
+
+- First stage of implementation:
+- Choosing among six possible turning angles:
+  - poner los ángulos
+  - Hacer dibujo de esto.
+
+---
+
+### KILOMBO
+
+- C-based kilobots simulator.
+- Efficient hypothesis testing.
+
+---
+
+VIDEOS DE ROBOTS CON ALGORITMOS, Y DIBUJO DE LO QUE FALTA.
+
+---
+
+### FUTURE WORK
+
+- Mantain minimum distances among neighoring kilobots while moving collectively.
+
+- Implement leader-follower dynamics and compare information transfer and decision-making effiency on the direction of motion for different dynamics.
+
+---
+### REFERENCES
+
+bla bla bla
