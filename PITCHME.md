@@ -77,7 +77,7 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 
 Note:
 The model describes the dynamics of a collection of SPPs moving at a constant velocity, and at each time unit, each particle $i$ changes its orientation depending on both the average orientation of its neighbors (defined by a neighborhood of radius $R_{0}$ centered on $i$) and a noise term representing perturbations.
-+++?image=~/Dropbox/ResearchPlan2018/phd_project/Vicsek_dynamics.png&position=left&size=50% 50%
+---?image=/phd_project/Vicsek_dynamics.png&position=right&size=50% 50%
 #### Parameters:
 - Density $\rho$: Number of particles $N$ in a volume $R^d$.
 
