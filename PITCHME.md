@@ -64,14 +64,13 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 
 # PRELIMINARY RESULTS
 
----?image=Vicsek_dynamics.png&position=right&size=25%
+---?image=Vicsek_dynamics.png&position=right&size=35%
 
 ## Vicsek model
 
 - Model of self-propelled particles (SPP)
 - Vicsek et al. (1995)
-- Imitates flocking behavior:
-  - Integrates natural perturbations in particles' direction of motion.  
+- Integrates natural perturbations in particles' direction of motion.  
 
 
 
@@ -88,7 +87,7 @@ The model describes the dynamics of a collection of SPPs moving at a constant ve
 
 Order parameter: Average normalized velocity $\phi$,
 
-$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$
+$$\phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right|$$
 
 Note:
 Agregar un esquema con partículas.
