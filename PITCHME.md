@@ -10,7 +10,7 @@
 
 System of self-organized similar units that **interact** by adjusting their speed, direction of motion and distance to each other, to achieve a coherent group displacement.
 
-The interactions are central in order for different “phases” to emerge: disorder vs. order. 
+The interactions are central in order for different “phases” to emerge: disorder vs. order.
 
 Observed in a wide range of biological systems.
 
@@ -32,14 +32,14 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 ---
 ## The study of collective motion
 
-### Universality of the phenomenom
+- Universality of the phenomenon
 
 #### Theoretical approaches
   - Models of self-proppelled particles (SPP).
   - Variation of the rules of interaction.
 
 #### Experimental approaches
-  -
+  - High precision data of animals on the move.
 
 
 
@@ -72,19 +72,20 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 - Vicsek et al. (1995)
 - Imitates flocking behavior:
   - Integrates natural perturbations in particles' direction of motion.  
+![](Vicsek_dynamics.png)
 
-- Parámeters:
-Density $\rho$: Number of particles $N$ in a volume $R^d$ ($d$ is the dimension).  
-Velocity $v_{0}$  
-Noise amplitude $\eta$    
+Note:
+The model describes the dynamics of a collection of SPPs moving at a constant velocity, and at each time unit, each particle $i$ changes its orientation depending on both the average orientation of its neighbors (defined by a neighborhood of radius $R_{0}$ centered on $i$) and a noise term representing perturbations.
++++
+#### Parameters:
+- Density $\rho$: Number of particles $N$ in a volume $R^d$.
 
-(FUNCIÓN DE RUIDO)
+- Velocity $v_{0}$: A
+- Noise amplitude $\eta$: white noise uniformely distributed in $[-\pi , \pi]$
 
 Order parameter: Average normalized velocity $\phi$,
 
 $$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$
-
-#### PRELIMINARY RESULTS
 
 Note:
 Agregar un esquema con partículas.
