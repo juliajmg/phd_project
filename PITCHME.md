@@ -91,13 +91,15 @@ Order parameter: Average normalized velocity $\phi$,
 $$\phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right|$$
 
 
----?image=phi_vs_eta_Nvariable.png&size=40%
+---
 
 ## Phase transitions in the Vicsek model
 
 First order vs. Second order as a function of $\eta$
 
 (GRÁFICA DE VICSEK, 1999 y de GREGOIRE, 2004)
+
+![Vicsek1995](phi_vs_eta_Nvariable.png)
 
 Note:
 Estudiar transiciones de fase y la diferencia entre los dos estudios.
