@@ -72,12 +72,14 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 - Vicsek et al. (1995)
 - Imitates flocking behavior:
   - Integrates natural perturbations in particles' direction of motion.  
-![](Vicsek_dynamics.png)
+
 
 
 Note:
 The model describes the dynamics of a collection of SPPs moving at a constant velocity, and at each time unit, each particle $i$ changes its orientation depending on both the average orientation of its neighbors (defined by a neighborhood of radius $R_{0}$ centered on $i$) and a noise term representing perturbations.
----?image=/phd_project/Vicsek_dynamics.png&position=right&size=50% 50%
+
+---?image=phd_project/Vicsek_dynamics.png&position=right
+
 #### Parameters:
 - Density $\rho$: Number of particles $N$ in a volume $R^d$.
 
