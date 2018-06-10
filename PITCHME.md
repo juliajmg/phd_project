@@ -7,11 +7,42 @@
 ---
 
 ## Collective motion
-- Qué es
-- Cómo se estudia
+
+System of self-organized similar units that **interact** by adjusting their speed, direction of motion and distance to each other, to achieve a coherent group displacement.
+
+The interactions are central in order for different “phases” to emerge: disorder vs. order. 
+
+Observed in a wide range of biological systems.
+
+Note:
+Its defining characteristic is that an individual action is dominated by the influence of others within a group, so each individual behaves differently as it would in solitary(non-linear system?)
+
+A system exhibiting collective motion is made of units
+- that are rather similar
+
+- moving with a nearly constant absolute velocity
+and are capable of changing their direction
+
+- interacting within a specific interaction range by changing their direction of motion, in a way involving an effective alignment
+-
+- which are subject to a noise of a varying magnitude
+
+Due to its diverse adaptive advantages, collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds
+
+---
+## The study of collective motion
+
+### Universality of the phenomenom
+
+#### Theoretical approaches
+  - Models of self-proppelled particles (SPP).
+  - Variation of the rules of interaction.
+
+#### Experimental approaches
+  -
 
 
-### INTRODUCTION
+
 ---
 ## Rules of interaction
 - Qué son
