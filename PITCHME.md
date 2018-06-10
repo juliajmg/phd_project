@@ -64,7 +64,7 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 
 # PRELIMINARY RESULTS
 
----?image=Vicsek_dynamics.png&position=right&size=50% 50%
+---?image=Vicsek_dynamics.png&position=right&size=50%
 
 ## Vicsek model
 
