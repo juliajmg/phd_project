@@ -70,7 +70,8 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 
 - Model of self-propelled particles (SPP)
 - Vicsek et al. (1995)
-- Integrates natural perturbations in particles' direction of motion.  
+- Integrates natural perturbations in
+   particles' direction of motion.  
 
 
 
