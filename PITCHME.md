@@ -120,14 +120,15 @@ Estudiar transiciones de fase y la diferencia entre los dos estudios.
 
 ### Phase transition as a function of particles' velocity
 
-- Fish collectives: Increase in polarization when fish increase their swimming speed @color[red](Gautrais2012; Tunstrom2013, Rieucau2014)
+- Fish collectives: Increase in polarization when fish increase their swimming speed @color[blue](Gautrais2012; Tunstrom2013, Rieucau2014)
 
-(VIDEO DE PECES)
+@div[left-50]
 ![Video](https://www.youtube.com/embed/xYl4m0xFcCU)  
+@divend
 
-
-https://www.youtube.com/watch?v=SIg5d_mi92k
-
+@div[right-50]
+![Video](https://www.youtube.com/embed/SIg5d_mi92k)
+@divend
 ---
 
 ## ¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?
