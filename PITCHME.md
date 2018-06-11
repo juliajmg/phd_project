@@ -218,7 +218,7 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 2. Explore the effect of increasing velocity of only a fraction of particles on the observed phase-transition.
 
   - ¿Adaptive strategy in natural systems?
-![Video](https://www.youtube.com/BbuxbeLGYK8)
+![Video](https://www.youtube.com/embed/BbuxbeLGYK8)
 
 Note:
 FOTO DE ZEBRAFISH
