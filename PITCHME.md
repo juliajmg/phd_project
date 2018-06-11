@@ -123,7 +123,9 @@ Estudiar transiciones de fase y la diferencia entre los dos estudios.
 Fish collectives: increase in polarization when fish increase their swimming speed (Gautrais2012; Tunstrom2013, Rieucau2014)
 
 (VIDEO DE PECES)
-![Video](https://www.youtube.com/embed/watch?v=xYl4m0xFcCU)
+![Video](https://www.youtube.com/embed/xYl4m0xFcCU)  
+
+
 https://www.youtube.com/watch?v=SIg5d_mi92k
 
 ---
