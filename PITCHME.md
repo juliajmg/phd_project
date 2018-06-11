@@ -165,7 +165,8 @@ Changes in the time-average order parameter $\phi$ as particles' velocity is inc
 
 ### To fix $\eta$
 
-- Values of $\eta$ where disorder and order states are observed:
+- Values of $\eta$ where disorder and order states   
+are observed:
 
   - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 
