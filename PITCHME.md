@@ -159,7 +159,7 @@ Changes in the time-average order parameter $\phi$ as particles' velocity is inc
   - $\rho$ from 0.1 to 2
   - Fixed eta value
 
----?image=eta_vs_phi_v0=0.05a10.png&position=right&size=35%
+---?image=eta_vs_phi_v00.05a10.png&position=right&size=35%
 
 ### To fix $\eta$
 
