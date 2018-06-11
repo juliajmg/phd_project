@@ -168,12 +168,13 @@ and order states are observed:
 
   - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 
----?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=40%
-### Results: Changes in $\phi$ by changing $v_{0}$ and $\rho$
+---?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=35%
+### Changes in $\phi$ by changing $v_{0}$ and $\rho$
 
 - **Disorder-to-order phase transition**
 
-- As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
+- As $\eta$ is increased, the transition
+ocurrs at higher $v_{0}$ and $\rho$ values.
 
 
 Note:
@@ -182,7 +183,7 @@ Anotar los valores de eta en cada una.
 
 For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
----?
+---?image=Phi_vs_v0_rho01a1_eta03a06_big.png&position=right&size=50%
 
 ### Nature of velocity-induced phase transition
 
@@ -193,12 +194,6 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 - After a $v_{0}$ threshold value, a phase transition compatible with a **first-order transition** is observed.
 @ulend
 @divend
-
-@div[right-50]
-![](Phi_vs_v0_rho01a1_eta03a06_big.png)
-@divend
-
-
 
 Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
@@ -226,7 +221,9 @@ Even in the simplest model, order is achieved by increasing the system velocity.
 @ul[brighten]
 - Study the velocity induced phase transition in fish
   - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
- @ulend @divend
+@ulend
+@divend
+
 @div[right-50]
 ![igb_logo](igb_logo.png)
 @divend
