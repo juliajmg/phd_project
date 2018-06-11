@@ -140,30 +140,32 @@ Buscar rangos de velocidades en peces.
 
 ## @color[purple](¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?)
 
----
+---?image=BOXES_IMAGE.PNG&position=right&size=35%
 
 ### Our simulations
 
 #### Computational optimization of the Vicsek model
 
 - System $L^2$ divided in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. (Ginelli et al. 2016)
+
+
 - First calculate the sum of particles' orientation for each box, and update their positions aftewards.
 
 #### Simulations
 
 Changes in the time-average order parameter $\phi$ as particles' velocity is increased.
-  - $N$ = 10,000
-  - $\rho$ from 0.1 to 2
 
----
+  - N = 10,000
+  - $\rho$ from 0.1 to 2
+  - Fixed eta value
+
+---?image=eta_vs_phi_v0=0.05a10.png&position=right&size=35%
 
 ### To fix $\eta$
 
-Values of $\eta$ where disorder and order states are observed:
+- Values of $\eta$ where disorder and order states are observed:
 
-GRAFICA
-
-$\eta$ = 0.3, 0.4, 0.5 and 0.6
+  - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 
 ---
 ### Changes in $\phi$ by changing $v_{0}$ and $\rho$
