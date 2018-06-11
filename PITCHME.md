@@ -161,7 +161,7 @@ Changes in the time-average order parameter $\phi$ as particles' velocity is inc
   - $\rho$ from 0.1 to 2
   - Fixed eta value
 
----?image=eta_vs_phi_v00.05a10.png&position=right&size=50%
+---?image=eta_vs_phi_v00.05a10.png&position=right&size=48%
 
 ### To fix $\eta$
 
@@ -171,37 +171,42 @@ and order states are observed:
   - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 
 ---
-### Changes in $\phi$ by changing $v_{0}$ and $\rho$
+### Results: Changes in $\phi$ by changing $v_{0}$ and $\rho$
 
-- Disorder-to-order phase transition
+- **Disorder-to-order phase transition**
+
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
 
 ![](Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png)
 
 Note:
 Hacer análisis de por qué ocurre esto!
+Anotar los valores de eta en cada una.
 
----
-### Nature of velocity induced phase transition
+For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
-- For each $\eta$, a value of $\rho$ was chosen where a transition was observed
+---?image=Phi_vs_v0_rho01a1_eta03a06_big.png&position=right&size=50%
 
-- After a $v_{0}$ threshold value, a phase transition compatible with a first-order transition is observed:
+### Nature of velocity-induced phase transition
 
-![](Phi_vs_v0_rho01a1_eta03a06_big.png)
+- For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
+
+- After a $v_{0}$ threshold value, a phase transition compatible with a **first-order transition** is observed:
+
 
 Note:
-Which means that with little increase in velocity, theres an increase of factor 10 in the polar order of the system.
+Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
 ---
+###
 
 The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
 
-Being able to rapidly increase group polarization by reaching a critical velocity value would be an advantaje for the group, specially in predation risk avoidance
+Being able to rapidly increase group polarization by reaching a critical velocity value would be an advantaje for the group, specially in predation risk avoidance.
 
 #### Even in the simplest model, order is achieved by increasing the system velocity.
 
----
+---?video=https://youtube.com/embed/BbuxbeLGYK8
 #### FUTURE WORK
 
 1. Study the velocity induced phase transition in fish
