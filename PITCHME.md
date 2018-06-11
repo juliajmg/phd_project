@@ -138,8 +138,8 @@ Buscar rangos de velocidades en peces.
 
 ---?image=PONERIMAGEN&position=right&size=35%
 
-## ¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?
-<span style="font-size:0.6em; color:cyan">¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?.</span> 
+@color[purple](##¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?)
+
 ---
 
 ### Our simulations
