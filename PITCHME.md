@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=Y-5ffl5_7AI
 
 ---?image=Vicsek_dynamics.png&position=right&size=35%
 
-## Vicsek model
+## @color[#2c7fb8](Vicsek model)
 
 - Model of self-propelled particles (SPP).  
 
