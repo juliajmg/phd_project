@@ -206,16 +206,19 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
 #### Even in the simplest model, order is achieved by increasing the system velocity.
 
----?video=https://www.youtube.com/BbuxbeLGYK8
+---
 #### FUTURE WORK
 
 1. Study the velocity induced phase transition in fish
+
   - Experimental data of zebrafish (*Danio rerio*)
+
   - The species exhibits swarming and schooling behaviors.
 
 2. Explore the effect of increasing velocity of only a fraction of particles on the observed phase-transition.
-  - Vicsek model
-  - ¿Adaptive strategy in natural systemsº?*
+
+  - ¿Adaptive strategy in natural systems?
+![Video](https://www.youtube.com/BbuxbeLGYK8)
 
 Note:
 FOTO DE ZEBRAFISH
