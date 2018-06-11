@@ -211,21 +211,20 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
 1. Study the velocity induced phase transition in fish
 
-  - Experimental data of zebrafish (*Danio rerio*)
+  - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
+  @div[left-50]
+  ![igb_logo](igb_logo.png)
+  @divend
 
-  - The species exhibits swarming and schooling behaviors.
+  @div[right-50]
+  ![igb_logo](gcai_logo.jpg)
+  @divend
 
 2. Explore the effect of increasing velocity of only a fraction of particles on the observed phase-transition.
 
   - ¿Adaptive strategy in natural systems?
 
-@div[left-50]
-![igb_logo](igb_logo.png)
-@divend
 
-@div[right-50]
-![igb_logo](gcai_logo.jpg)
-@divend
 
 +++?video=https://www.dropbox.com/s/26xge2kv3w7dsqk/Zebrafish2.avi
 
