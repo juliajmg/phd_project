@@ -170,14 +170,14 @@ and order states are observed:
 
   - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 
----
+---?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=40%
 ### Results: Changes in $\phi$ by changing $v_{0}$ and $\rho$
 
 - **Disorder-to-order phase transition**
 
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
 
-![](Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png)
+![]()
 
 Note:
 Hacer análisis de por qué ocurre esto!
@@ -213,19 +213,20 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
   - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
 
-  @div[left-50]
-  ![igb_logo](igb_logo.png)
-  @divend
+@div[left-50]
+![igb_logo](igb_logo.png)
+@divend
 
-  @div[right-50]
-  ![igb_logo](gcai_logo.jpg)
-  @divend
+@div[right-50]
+![igb_logo](gcai_logo.jpg)
+@divend
 
 +++
 
-- Explore the effect of increasing velocity of only a fraction of particles on the observed phase-transition.
+- Explore the effect of increasing the velocity of only a fraction of particles on the disorder-order phase-transition.
 
   - ¿Adaptive strategy in natural systems?
+DIBUJO BONITO
 
 Note:
 FOTO DE ZEBRAFISH
