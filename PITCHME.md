@@ -118,9 +118,9 @@ Estudiar transiciones de fase y la diferencia entre los dos estudios.
 
 ---
 
-## Phase transition as a function of particles' velocity
+### Phase transition as a function of particles' velocity
 
-Fish collectives: increase in polarization when fish increase their swimming speed (Gautrais2012; Tunstrom2013, Rieucau2014)
+- Fish collectives: Increase in polarization when fish increase their swimming speed @color[red](Gautrais2012; Tunstrom2013, Rieucau2014)
 
 (VIDEO DE PECES)
 ![Video](https://www.youtube.com/embed/xYl4m0xFcCU)  
