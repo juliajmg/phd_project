@@ -72,14 +72,10 @@ https://www.youtube.com/watch?v=Y-5ffl5_7AI
 
 - Model of self-propelled particles (SPP).  
 
-
-
 - Vicsek et al. (1995).  
-
 
 - Integrates natural perturbations in   
 the direction of motion.  
-
 
 
 Note:
