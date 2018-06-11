@@ -93,7 +93,8 @@ The model describes the dynamics of a collection of SPPs moving at a constant ve
 
 - Order parameter: Average normalized velocity $\phi$,
 
-$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$
+`$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$`
+
 
 
 ---
@@ -120,7 +121,9 @@ Estudiar transiciones de fase y la diferencia entre los dos estudios.
 
 ### Phase transition as a function of particles' velocity
 
-- Fish collectives: Increase in polarization when fish increase their swimming speed @color[blue](Gautrais2012; Tunstrom2013, Rieucau2014)
+- **Fish collectives**: Higher average polarization at higher swimming speeds.
+
+@color[blue]((Gautrais2012; Tunstrom2013, Rieucau2014))
 
 @div[left-50]
 ![Video](https://www.youtube.com/embed/xYl4m0xFcCU)  
@@ -129,10 +132,14 @@ Estudiar transiciones de fase y la diferencia entre los dos estudios.
 @div[right-50]
 ![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 @divend
----
+
+Note:
+Buscar rangos de velocidades en peces.
+
+---?image=PONERIMAGEN&position=right&size=35%
 
 ## ¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?
-
+<span style="font-size:0.6em; color:cyan">¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?.</span> 
 ---
 
 ### Our simulations
