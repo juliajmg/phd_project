@@ -206,7 +206,7 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
 #### Even in the simplest model, order is achieved by increasing the system velocity.
 
----?video=https://youtube.com/embed/BbuxbeLGYK8
+---?video=https://www.youtube.com/BbuxbeLGYK8
 #### FUTURE WORK
 
 1. Study the velocity induced phase transition in fish
