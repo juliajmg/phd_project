@@ -182,13 +182,22 @@ Anotar los valores de eta en cada una.
 
 For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
----?image=Phi_vs_v0_rho01a1_eta03a06_big.png&position=right&size=50%
+---?
 
 ### Nature of velocity-induced phase transition
 
+@div[left-50]
+@ul[brighten]
 - For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
 - After a $v_{0}$ threshold value, a phase transition compatible with a **first-order transition** is observed.
+@ulend
+@divend
+
+@div[right-50]
+![](Phi_vs_v0_rho01a1_eta03a06_big.png)
+@divend
+
 
 
 Note:
@@ -217,13 +226,9 @@ Even in the simplest model, order is achieved by increasing the system velocity.
 @ul[brighten]
 - Study the velocity induced phase transition in fish
   - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
-![zebrafish](zebrafish.jpg)
-
  @ulend @divend
-
 @div[right-50]
 ![igb_logo](igb_logo.png)
-![igb_logo](gcai_logo.jpg)
 @divend
 
 +++
