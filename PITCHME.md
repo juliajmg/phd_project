@@ -41,6 +41,8 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 #### Experimental approaches
   - High precision data of animals on the move.
 
+https://www.youtube.com/watch?v=Y-5ffl5_7AI
+
 
 
 ---
@@ -68,10 +70,11 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 
 ## Vicsek model
 
-- Model of self-propelled particles (SPP)
-- Vicsek et al. (1995)
-- Integrates natural perturbations in
-   particles' direction of motion.  
+- Model of self-propelled particles (SPP).
+
+- Vicsek et al. (1995).
+
+- Integrates natural perturbations in the direction of motion.  
 
 
 
@@ -80,15 +83,17 @@ The model describes the dynamics of a collection of SPPs moving at a constant ve
 
 ---
 
-#### Parameters:
+### Parameters:
+
 - Density $\rho$: Number of particles $N$ in a volume $R^d$.
 
-- Velocity $v_{0}$: A
+- Velocity $v_{0}$
+
 - Noise amplitude $\eta$: white noise uniformely distributed in $[-\pi , \pi]$
 
-Order parameter: Average normalized velocity $\phi$,
+- Order parameter: Average normalized velocity $\phi$,
 
-$$\phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right|$$
+$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$
 
 
 ---
@@ -97,9 +102,15 @@ $$\phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right|$$
 
 First order vs. Second order as a function of $\eta$
 
-(GRÁFICA DE VICSEK, 1999 y de GREGOIRE, 2004)
-
+@div[left-50]
 ![Vicsek1995](phi_vs_eta_Nvariable.png)
+Vicsek et al., 1995
+@divend
+
+@div[right-50]
+![FirstOrder](FirstTransitionEvidence.png)
+Gregoire and Chaté, 2008
+@divend
 
 Note:
 Estudiar transiciones de fase y la diferencia entre los dos estudios.
@@ -108,14 +119,15 @@ Estudiar transiciones de fase y la diferencia entre los dos estudios.
 
 ## Phase transition as a function of particles' velocity
 
-Fish collectives: increase in polarization when fish increase their swimming speed (\cite{Gautrais2012}      \cite{Tunstrom2013}  \cite{Rieucau2014})
+Fish collectives: increase in polarization when fish increase their swimming speed (Gautrais2012; Tunstrom2013, Rieucau2014)
 
 (VIDEO DE PECES)
-
+https://www.youtube.com/watch?v=xYl4m0xFcCU
+https://www.youtube.com/watch?v=SIg5d_mi92k
 
 ---
 
-#### ¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?
+## ¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?
 
 ---
 
