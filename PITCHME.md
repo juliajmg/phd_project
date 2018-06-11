@@ -149,7 +149,9 @@ Buscar rangos de velocidades en peces.
 - System $L^2$ divided in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. (Ginelli et al. 2016)
 
 
-- First calculate the sum of particles' orientation for each box, and update their positions aftewards.
+- First calculate the sum of particles' orientation for each box, and update their positions aftewards.  
+
++++
 
 #### Simulations
 
@@ -159,7 +161,7 @@ Changes in the time-average order parameter $\phi$ as particles' velocity is inc
   - $\rho$ from 0.1 to 2
   - Fixed eta value
 
----?image=eta_vs_phi_v00.05a10.png&position=right&size=35%
+---?image=eta_vs_phi_v00.05a10.png&position=right
 
 ### To fix $\eta$
 
@@ -207,7 +209,7 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
 2. Explore the effect of increasing velocity of only a fraction of particles on the observed phase-transition.
   - Vicsek model
-  - ¿Adaptive strategy in natural systems?*
+  - ¿Adaptive strategy in natural systemsº?*
 
 Note:
 FOTO DE ZEBRAFISH
