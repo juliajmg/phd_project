@@ -85,17 +85,15 @@ The model describes the dynamics of a collection of SPPs moving at a constant ve
 
 ### Parameters:
 
-- Density $\rho$: Number of particles $N$ in a volume $R^d$.
+- **Density $\rho$**: Number of particles $N$ in a volume $R^d$.
 
-- Velocity $v_{0}$
+- **Velocity $v_{0}$**
 
-- Noise amplitude $\eta$: white noise uniformely distributed in $[-\pi , \pi]$
+- **Noise amplitude $\eta$**: white noise uniformely distributed in $[-\pi , \pi]$
 
-- Order parameter: Average normalized velocity $\phi$,
+- **Order parameter** $\phi$: Average normalized velocity,
 
 `$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$`
-
-
 
 ---
 
@@ -104,14 +102,14 @@ The model describes the dynamics of a collection of SPPs moving at a constant ve
 First order vs. Second order as a function of $\eta$
 
 @div[left-50]
+<span style="font-size:0.6em; color:grey">Vicsek et al. 1995</span>
 ![Vicsek1995](phi_vs_eta_Nvariable.png)
-Vicsek et al., 1995
+
 @divend
 
 @div[right-50]
-![FirstOrder](FirstTransitionEvidence.png)
-Gregoire and Chaté, 2008.  
-
+![Chate2008](FirstTransitionEvidence.png)
+<span style="font-size:0.6em; color:grey">Gregoire and Chaté, 2008</span>
 @divend
 
 Note:
@@ -146,10 +144,10 @@ Buscar rangos de velocidades en peces.
 
 #### Computational optimization of the Vicsek model
 
-- System $L^2$ divided in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. (Ginelli et al. 2016)
+- System $L^2$ divided in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. <span style="font-size:0.6em; color:grey">(Ginelli et al. 2016)</span>
 
 
-- First calculate the sum of particles' orientation for each box, and update their positions aftewards.  
+- First the sum of particles' orientation for each box, and update their positions aftewards.  
 
 +++
 
@@ -159,7 +157,7 @@ Changes in the time-average order parameter $\phi$ as particles' velocity is inc
 
   - N = 10,000
   - $\rho$ from 0.1 to 2
-  - Fixed eta value
+  - Fixed $\eta$ value
 
 ---?image=eta_vs_phi_v00.05a10.png&position=right&size=48%
 
@@ -177,7 +175,6 @@ and order states are observed:
 
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
 
-![]()
 
 Note:
 Hacer análisis de por qué ocurre esto!
@@ -191,33 +188,41 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
 - For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
-- After a $v_{0}$ threshold value, a phase transition compatible with a **first-order transition** is observed:
+- After a $v_{0}$ threshold value, a phase transition compatible with a **first-order transition** is observed.
 
 
 Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
----
-###
++++
 
+A rapid increase in polarization when a critical velocity is reached would be an advantaje for fish groups, specially for predation risk avoidance.
+
+
+Note:
 The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
 
 Being able to rapidly increase group polarization by reaching a critical velocity value would be an advantaje for the group, specially in predation risk avoidance.
 
-#### Even in the simplest model, order is achieved by increasing the system velocity.
+Even in the simplest model, order is achieved by increasing the system velocity.
 
 ---
 #### FUTURE WORK
 
 - Study the velocity induced phase transition in fish
 
-  - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
+
 
 @div[left-50]
-![igb_logo](igb_logo.png)
-@divend
+@ul[brighten]
+- Study the velocity induced phase transition in fish
+  - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
+![zebrafish](zebrafish.jpg)
+
+ @ulend @divend
 
 @div[right-50]
+![igb_logo](igb_logo.png)
 ![igb_logo](gcai_logo.jpg)
 @divend
 
