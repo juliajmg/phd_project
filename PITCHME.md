@@ -206,7 +206,7 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
 #### Even in the simplest model, order is achieved by increasing the system velocity.
 
----?video=https://www.dropbox.com/s/26xge2kv3w7dsqk/Zebrafish2.avi
+---?image=Zebra.png&position=right&size=25%
 #### FUTURE WORK
 
 1. Study the velocity induced phase transition in fish
@@ -219,11 +219,20 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
   - ¿Adaptive strategy in natural systems?
 
+@div[left-50]
+![igb_logo](igb_logo.png)
+@divend
+
+@div[right-50]
+![igb_logo](gcai_logo.jpg)
+@divend
+
++++?video=https://www.dropbox.com/s/26xge2kv3w7dsqk/Zebrafish2.avi
 
 Note:
 FOTO DE ZEBRAFISH
 Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.
-\* As a way of saving energy but still respond efficienty
+* As a way of saving energy but still respond efficienty
 to perturbations.
 ---
 
