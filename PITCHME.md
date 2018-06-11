@@ -70,11 +70,15 @@ https://www.youtube.com/watch?v=Y-5ffl5_7AI
 
 ## Vicsek model
 
-- Model of self-propelled particles (SPP).
+- Model of self-propelled particles (SPP).  
 
-- Vicsek et al. (1995).
 
-- Integrates natural perturbations in the direction of motion.  
+
+- Vicsek et al. (1995).  
+
+
+- Integrates natural perturbations in   
+the direction of motion.  
 
 
 
