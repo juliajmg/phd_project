@@ -27,7 +27,7 @@ Note:
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
 ---
-## The study of collective motion
+### The study of collective motion
 @ul[brighten]
 - Universality of the phenomenon.
 @div[left-70]
@@ -69,7 +69,8 @@ Note:
 
 +++
 @div[left-50]
-- GROUP VARIATION:
+- GROUP VARIATION:  
+
   - Changes in the frequency and force of interactions.
   - External perturbations or internal states.  
   - Group's capacity to exhibit multiple stable collective states.
@@ -77,7 +78,8 @@ Note:
 
 @div[right-50]
 
-- INDIVIDUAL VARIATION:
+- INDIVIDUAL VARIATION:  
+
   - Difference in the rules of interaction within a group.
   - Internal states, body-size, information or experience disparities.
   - Emergence of leader-follower dynamics.
@@ -117,8 +119,20 @@ These variations are relevant to understand which strategies groups can adopt to
 - Compare emergent behaviors with those observed in animal collectives with flocking behavior.
 @ulend
 
-+++
 
++++
+#### SPECIFIC GOALS
+
+- Study the effects of varying agents' velocity on the ordering the ordering of the system.
+  - Numeric simulations of SPPs.
+  - Fish schools data.
+
+- Examine the impact of leader-follower relationships on the information transfer and collective decision-making of agents subjected to different social and environmental contexts.
+  - Swarms of interacting autonomous mini-robots
+  - Fish schools data.
+
+Note:
+- For this purpose, we are currently working with experimental data with swarms of interacting autonomous mini-robots to examine leader-follower dynamics, and with numeric simulations using simple models of self-propelled particles (SPP) to examine phase transitions when particles velocity is increased.
 
 ---
 
@@ -126,7 +140,7 @@ These variations are relevant to understand which strategies groups can adopt to
 
 ---?image=Vicsek_dynamics.png&position=right&size=35%
 
-## @color[#324851](Vicsek model)
+## @color[](Vicsek model)
 
 - Model of self-propelled particles (SPP).  
 
@@ -137,27 +151,38 @@ the direction of motion.
 
 
 Note:
-The model describes the dynamics of a collection of SPPs moving at a constant velocity, and at each time unit, each particle $i$ changes its orientation depending on both the average orientation of its neighbors (defined by a neighborhood of radius $R_{0}$ centered on $i$) and a noise term representing perturbations.
+
+We chose the Vicsek model for our numeric simulations to investigate changes in the ordering of the system as a function of particles' velocity.
+
+The Vicsek model is the first model designed to quantitatively interpret flocking behaviors. It represents the simplest model displaying a transition to collective motion similar to
+the one observed in flocks (schools, herds). This is achieved by taking into account the natural perturbation a flock is affected by, integrating it as a random "noise" angle that deviates the direction of motion of every particle.
+
+This model describes the dynamics of a collection of SPPs moving at a constant velocity, and at each time unit, each particle $i$ changes its orientation depending on both the average orientation of its neighbors (defined by a neighborhood of radius $R_{0}$ centered on $i$) and a noise term representing perturbations.
 
 ---
 
 ### Parameters:
 
-- **Density $\rho$**: Number of particles $N$ in a volume $R^d$.
+@ul[brighten]
+- **Density $\rho$**: <span style="font-size:0.6em; color:grey">Number of particles $N$ in a volume $R^d$</span>.
 
 - **Velocity $v_{0}$**
 
-- **Noise amplitude $\eta$**: white noise uniformely distributed in $[-\pi , \pi]$
+- **Noise amplitude $\eta$**: <span style="font-size:0.6em; color: grey">white noise uniformly distributed in $[-\pi , \pi]$</span>
 
-- **Order parameter** $\phi$: Average normalized velocity,
+- **Order parameter** $<span style="font-size:0.6em; color: grey">\phi$: Average normalized velocity,</span>
 
 `$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$`
+@ulend
 
+Note:
+The parameters of the model are the density of particles, meaning, the number of particles N in a volume. The velocity v_0, the noise amplitude and the order parámeter phi.
+**ESTO NECESITA PRÁCTICA**
 ---
 
 ## Phase transitions in the Vicsek model
 
-First order vs. Second order as a function of $\eta$
+- First order vs. Second order phase transition as a function of $\eta$:
 
 @div[left-50]
 <span style="font-size:0.6em; color:grey">Vicsek et al. 1995</span>
@@ -171,51 +196,65 @@ First order vs. Second order as a function of $\eta$
 @divend
 
 Note:
-Estudiar transiciones de fase y la diferencia entre los dos estudios.
+Phase transitions in the Vicsek model have been particularly subject for debate. In their first paper, Vicsek and company showed that when $\eta$ is increased, the system undergoes a phase transition from an ordered state where all the particles move in the same direction, to a disordered state where the particles move in random directions. They categorized the order-to-disorder phase transition as a second-order transition occurring at a critical noise value.
+Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with larger system sizes with many more particles moving at higher velocities, and they found a order-to-disorder first-order transition.
+**FALTA: VER CONDICIONES DE SIMULACIÓN DE CHATÉ, Y EN QUÉ VA ESA DISCUSIÓN**
 
+- This has resulted in a number of studies investigating phase transitions varying system's parameters \cite{Aldana2009}.
 ---
 
-### Phase transition as a function of particles' velocity
+### Phase transition as a function of agents' velocity
+@ul[brighten]
 
-- **Fish collectives**: Higher average polarization at higher swimming speeds.
+- COLLECTIVE MOTION OF FISH
+  - Disorder-to-order phase transition as a function of velocity in fish:
+    - Higher average polarization ($\phi$) at higher swimming speeds ($v_0$).
 
-@color[blue]((Gautrais2012; Tunstrom2013, Rieucau2014))
+- ¿Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?
 
-@div[left-50]
-![Video](https://www.youtube.com/embed/xYl4m0xFcCU)  
-@divend
+@ulend
 
-@div[right-50]
-![Video](https://www.youtube.com/embed/SIg5d_mi92k)
-@divend
 
 Note:
+Nevertheless, to our knowledge there is very few literature related to the model's dependence on particles velocity, so we wanted to fill this gap by focusing on the effect of increasing $v_{0}$ on the ordering of the system.
+
+The occurrence of a velocity dependent phase transition has been detected in various fish species that show an increase in group's average polarization when individuals increase their swimming speed \cite{Gautrais2012}  \cite{Tunstrom2013}  \cite{Rieucau2014} (i.e. they exhibit disorder to order phase transitions). This phenomena has been analyzed in a wide group-size range (from 10 to 60,000 individuals), and in field and laboratory settings using recording and tracking technologies to obtain fish positions and velocities over periods of time.
+
+Here, we want to prove if it is possible to reproduce the velocity-dependent disorder to order phase transition in fish collectives in a model as simple as the Vicsek model.
+
+**FALTA: PONER PRUEBAS SOBRE LOS PECES Y LA VELOCIDAD**
+
+![Video](https://www.youtube.com/embed/xYl4m0xFcCU)
+
+![Video](https://www.youtube.com/embed/SIg5d_mi92k)
+
+(Gautrais2012; Tunstrom2013, Rieucau2014)
+
 Buscar rangos de velocidades en peces.
 
----?image=PONERIMAGEN&position=right&size=35%
 
-## @color[purple](¿Is it possible to reproduce the velocity-dependent disorder-to-order phase transition in a model as simple as the Vicsek model?)
+---?image=BOXES_IMAGE.PNG&position=left&size=50%
 
----?image=BOXES_IMAGE.PNG&position=right
+### Numerical simulations of the Vicsek model
+@ul[brighten]
+@div[left-50]
+- Computational optimization of the Vicsek model
 
-### Our simulations
+  - System $L^2$ divided in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. <span style="font-size:0.6em; color:grey">(Ginelli et al. 2016)</span>
 
-#### Computational optimization of the Vicsek model
+  - First sum particles' orientation for each box, and update their positions afterwards.  
 
-- System $L^2$ divided in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. <span style="font-size:0.6em; color:grey">(Ginelli et al. 2016)</span>
+- Changes in $\phi$ as $v_0 is increased.
+    - N = 10,000
+    - Time = 100,000
+    - $\rho$ from 0.1 to 2.
 
+@divend
+@ulend
+Note:
+In our simulations, we implemented an optimized version of the Vicsek model that divides the system $L^2$ in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. This way, to update the position of particle $i$, we only need to consider the particles of the nine neighboring boxes \cite{Ginelli2016}. In addition, our version of the system calculates first the sum of particles' orientation for each box, and later updates their positions.
 
-- First the sum of particles' orientation for each box, and update their positions aftewards.  
-
-+++
-
-#### Simulations
-
-Changes in the time-average order parameter $\phi$ as particles' velocity is increased.
-
-  - N = 10,000
-  - $\rho$ from 0.1 to 2
-  - Fixed $\eta$ value
+**FALTA: ENTENDER BIEN LA OPTIMIZACIÓN, CAMBIAR PUNTOS EN SLIDE Y HACER EL DIBUJO DE LAS CAJAS**
 
 ---?image=eta_vs_phi_v00.05a10.png&position=right&size=48%
 
@@ -226,18 +265,25 @@ and order states are observed:
 
   - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 
----?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=35%
-### Changes in $\phi$ by changing $v_{0}$ and $\rho$
+Note:
+First, noise amplitude values were chosen for which both order and disorder states were observed for different $v_0$ values. We did different simulations for each eta value fixed of 0.3, 0.4, 0.5 and 0.6 as an exploratory analysis.  
 
+---?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=35%
+
+### Changes in $\phi$, by changing $v_{0}$ and $\rho$
+
+@div[right-50]
 - **Disorder-to-order phase transition**
 
-- As $\eta$ is increased, the transition
-ocurrs at higher $v_{0}$ and $\rho$ values.
+- As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
+
+@divend
 
 
 Note:
-Hacer análisis de por qué ocurre esto!
-Anotar los valores de eta en cada una.
+
+**FALTA: Hacer análisis de por qué ocurre esto!
+Anotar los valores de eta en cada una**
 
 For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
@@ -258,10 +304,12 @@ Which means that with little increase in velocity, theres an increase of factor 
 
 +++
 
-A rapid increase in polarization when a critical velocity is reached would be an advantaje for fish groups, specially for predation risk avoidance.
+- A rapid increase in polarization at critical velocity value: advantage for fish in predation risk avoidance.
+
 
 
 Note:
+**FALTA: SIMULACIÓN DE PARTÍCULAS**
 The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
 
 Being able to rapidly increase group polarization by reaching a critical velocity value would be an advantaje for the group, specially in predation risk avoidance.
@@ -271,32 +319,37 @@ Even in the simplest model, order is achieved by increasing the system velocity.
 ---
 #### FUTURE WORK
 
-- Study the velocity induced phase transition in fish
-
-
-
 @div[left-50]
 @ul[brighten]
 - Study the velocity induced phase transition in fish
   - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
+
+!![igb_logo](igb_logo.png)
 @ulend
 @divend
 
 @div[right-50]
-![igb_logo](igb_logo.png)
+VIDEO O IMAGEN DE PECES ZEBRA
 @divend
 
 +++
-
+@div[left-50]
+@ul[brighten]
 - Explore the effect of increasing the velocity of only a fraction of particles on the disorder-order phase-transition.
 
   - ¿Adaptive strategy in natural systems?
-DIBUJO BONITO
 
+@ulend
+@divend
+
+@div[right-50]
+DIBUJO DE PARTICULAS, UNAS CON MAS VELOCIDAD QUE OTRAS.
+@divend
 Note:
+**FALTA
 FOTO DE ZEBRAFISH
-Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.
-* As a way of saving energy but still respond efficienty
+Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.**
+* As a way of saving energy but still respond efficiently
 to perturbations.
 ---
 

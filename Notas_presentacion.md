@@ -31,7 +31,7 @@
 
 - Group variation can occur as a response to an external perturbation, to internal states, or to different stages of development.
 
-- This variation expresses in groups' capacity to exhibit mutiple stable collective states: swarming to schooling to milling.
+- This variation expresses in groups' capacity to exhibit multiple stable collective states: swarming to schooling to milling.
 
 ### Individual variations
 
@@ -46,3 +46,6 @@ These variations are relevant to understand which strategies groups can adopt to
 -------------------
 
 ## Goals
+- The main goal of this project is to study the impact of the variation in global and individual interaction rules, in ordering and in the processes of information transfer and decision-making in systems that exhibit collective motion, using experimental and numeric simulation data.
+
+- For this purpose, we are currently working with experimental data with swarms of interacting autonomous mini-robots to examine leader-follower dynamics, and with numeric simulations using simple models of self-propelled particles (SPP) to examine phase transitions when particles velocity is increased.
