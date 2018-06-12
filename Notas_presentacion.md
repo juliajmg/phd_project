@@ -37,9 +37,11 @@
 
 - Individual variation expresses in the difference in the rules of interaction within a group.
 
-- This can be a consequence of factors that affect the preferred individual's speed and direction (different body sizes, specific internal states) or to intrinsic differences in their behavior (more experiences individuals, familiarity, socially dominant) that change attention an individual puts on their neighbors in decision making processes. 
+- This can be a consequence of factors that affect the preferred individual's speed and direction (different body sizes, specific internal states) or to intrinsic differences in their behavior (more experiences individuals, familiarity, socially dominant) that change attention an individual puts on their neighbors in decision making processes.
 
 - Individual variation often causes the emergence of leader-follower dynamics (i.e. variations in individuals' probability to follow others).
+
+These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.
 
 -------------------
 

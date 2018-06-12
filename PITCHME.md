@@ -29,20 +29,22 @@ Note:
 ---
 ## The study of collective motion
 @ul[brighten]
-@div[lef-50]
+@div[lef-40]
 - Universality of the phenomenon.
 
 **Theoretical approaches**
 
   - Models of self-proppelled particles (SPP).
+
   - Variation of the rules of interaction.
 
 **Experimental approaches**
 
   - High precision data of animals on the move.
+
 @divend
 
-@div[right-50]
+@div[right-60]
 ![Video](https://www.youtube.com/embed/Y-5ffl5_7AI)
 @divend
 
@@ -50,7 +52,7 @@ Note:
 Note:
 - The underlying fundamental principles of collective motion are usually generalized, and therefore nearly independent of the specific details relative to the behavior of individual components, so they are transferable between systems of different nature. This characteristic is known as universality, and coupled with the many technological applications inspired by collective models, has attracted the attention of statistical physicists and theoretical biologists, as well as experimental scientists.
 
-- In theoretical approximations, the mechanisms by which local interactions between agents generate emergent global patterns is investigated with models of self-proppelled particles with interaction rules that can be varied.
+- In theoretical approximations, the mechanisms by which local interactions between agents generate emergent global patterns is investigated with models of self-propelled particles with interaction rules that can be varied.
 
 - In experimental approaches, the advances in tracking and image technologies have enabled to obtain high precision data of animals on the move and make and accurate analysis of individual behavior.
 
@@ -67,32 +69,30 @@ Note:
 - Individual and global variations.
 
 Note:
-- The different ways in which individuals interact give flexibility to a group in decision-making and information trasnfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
+- The different ways in which individuals interact give flexibility to a group in decision-making and information transfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
 
 +++
 @div[left-50]
 **GROUP VARIATION**:
 
-- Changes in the frequency and force of interactions.
+  - Changes in the frequency and force of interactions.
 
-- External perturbations or internal states.  
+  - External perturbations or internal states.  
 
-- Group's capacity to exhibit multiple stable collective states.
+  - Group's capacity to exhibit multiple stable collective states.
 @divend
 
 @div[right-50]
 
 **INDIVIDUAL VARIATION**
 
-- Difference in the rules of interaction within a group.
+  - Difference in the rules of interaction within a group.
 
--  Internal states, body-size, information or experience disparities.
+  - Internal states, body-size, information or experience disparities.
 
-- Emergence of leader-follower dynamics.
+  - Emergence of leader-follower dynamics.
 
 @divend
-
-<span style="font-size:0.6em; color:grey">These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.</span>
 
 
 Note:
@@ -111,6 +111,9 @@ Individual variations
 - This can be a consequence of factors that affect the preferred individual's speed and direction (different body sizes, specific internal states) or to intrinsic differences in their behavior (more experiences individuals, familiarity, socially dominant) that change attention an individual puts on their neighbors in decision making processes.
 
 - Individual variation often causes the emergence of leader-follower dynamics (i.e. variations in individuals' probability to follow others).
+
+These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.
+
 ---
 
 ## GOALS
