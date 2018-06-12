@@ -68,21 +68,19 @@ Note:
 - The different ways in which individuals interact give flexibility to a group in decision-making and information transfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
 
 +++
-#### Variation in the rules of interaction 
+#### Variation in the rules of interaction
 @ul[brighten]
-@div[left-50]
+
 - Group variation
   - Changes in the frequency and force of interactions.
   - External perturbations or internal states.
   - Group's capacity to exhibit multiple stable collective states.
-@divend
 
-@div[right-50]
 - Individual variation  
   - Difference in the rules of interaction within a group.
   - Internal states, body-size, information or experience disparities.
   - Emergence of leader-follower dynamics.
-@divend
+
 @ulend
 
 Note:
