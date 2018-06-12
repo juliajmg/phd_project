@@ -32,11 +32,13 @@ Note:
 @div[lef-50]
 - Universality of the phenomenon.
 
-#### Theoretical approaches
+**Theoretical approaches**
+
   - Models of self-proppelled particles (SPP).
   - Variation of the rules of interaction.
 
-#### Experimental approaches
+**Experimental approaches**
+
   - High precision data of animals on the move.
 @divend
 
@@ -69,7 +71,7 @@ Note:
 
 +++
 @div[left-50]
-#### Group variations:
+**GROUP VARIATION**:
 
 - Changes in the frequency and force of interactions.
 
@@ -80,7 +82,7 @@ Note:
 
 @div[right-50]
 
-#### Individual variations:
+**INDIVIDUAL VARIATION**
 
 - Difference in the rules of interaction within a group.
 
@@ -90,7 +92,8 @@ Note:
 
 @divend
 
-These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.
+<span style="font-size:0.6em; color:grey">These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.</span>
+
 
 Note:
 Global variations
