@@ -30,7 +30,7 @@ Note:
 ## The study of collective motion
 @ul[brighten]
 
-@div[lef-40]
+@div[left-40]
 Universality of the phenomenon.
 
 1. Theoretical approaches
@@ -72,7 +72,7 @@ Note:
 
 +++
 @div[left-50]
-**GROUP VARIATION**:
+GROUP VARIATION:
 
   - Changes in the frequency and force of interactions.
 
@@ -83,9 +83,9 @@ Note:
 
 @div[right-50]
 
-**INDIVIDUAL VARIATION**
+INDIVIDUAL VARIATION:
 
-  - Difference in the rules of interaction within a group.
+- Difference in the rules of interaction within a group.
 
   - Internal states, body-size, information or experience disparities.
 
