@@ -29,17 +29,16 @@ Note:
 ---
 ## The study of collective motion
 @ul[brighten]
+
 @div[lef-40]
-- Universality of the phenomenon.
+Universality of the phenomenon.
 
-**Theoretical approaches**
-
+1. Theoretical approaches
   - Models of self-proppelled particles (SPP).
 
   - Variation of the rules of interaction.
 
-**Experimental approaches**
-
+2. Experimental approaches
   - High precision data of animals on the move.
 
 @divend
