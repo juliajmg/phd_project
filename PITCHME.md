@@ -30,7 +30,7 @@ Note:
 ## The study of collective motion
 @ul[brighten]
 - Universality of the phenomenon.
-@div[left-50]
+@div[left-70]
 - Theoretical approaches
   - Models of self-proppelled particles (SPP).
   - Variation of the rules of interaction.
@@ -40,7 +40,7 @@ Note:
 
 @divend
 
-@div[right-50]
+@div[right-30]
 ![Video](https://www.youtube.com/embed/Y-5ffl5_7AI)
 @divend
 
