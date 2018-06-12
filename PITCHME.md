@@ -70,7 +70,7 @@ Note:
 +++
 #### Variation in the rules of interaction
 @ul[brighten]
-
+<span style="font-size:0.6em">
 - Group variation
   - Changes in the frequency and force of interactions.
   - External perturbations or internal states.
@@ -80,7 +80,7 @@ Note:
   - Difference in the rules of interaction within a group.
   - Internal states, body-size, information or experience disparities.
   - Emergence of leader-follower dynamics.
-
+</span>
 @ulend
 
 Note:
