@@ -5,34 +5,32 @@
 # INTRODUCTION
 
 ---
-
 ## Collective motion
 
-System of self-organized similar units that **interact** by adjusting their speed, direction of motion and distance to each other, to achieve a coherent group displacement.
+@ul[brighten]
+- Similar individual units that **interact** by adjusting their speed, direction of motion and distance to each other, to achieve a coherent group displacement.
 
-The interactions are central in order for different “phases” to emerge: disorder vs. order.
+- No central control: self-organization.
 
-Observed in a wide range of biological systems.
+- The interactions are central in order for different “phases” to emerge: disorder vs. order.
+
+- Observed in a wide range of biological systems.
+ @ulend
 
 Note:
-Its defining characteristic is that an individual action is dominated by the influence of others within a group, so each individual behaves differently as it would in solitary(non-linear system?)
+- Collective motion is a type of behavior that consists of similar agents interacting in such a way that they achieve a coherent group displacement. By coherent i mean they adjust their speed, direction of motion and distance to each other to achieve cohesion and synchronization.
 
-A system exhibiting collective motion is made of units
-- that are rather similar
+- This is done without any central control, i.e. the system self-organizes.
 
-- moving with a nearly constant absolute velocity
-and are capable of changing their direction
+- From the way agents interact, different phases can emerge: from disorganized aggregations to coordinated and polarized groups.
 
-- interacting within a specific interaction range by changing their direction of motion, in a way involving an effective alignment
--
-- which are subject to a noise of a varying magnitude
-
-Due to its diverse adaptive advantages, collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds
+- Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
 ---
 ## The study of collective motion
-
-- Universality of the phenomenon
+@ul[brighten]
+@div[lef-50]
+- Universality of the phenomenon.
 
 #### Theoretical approaches
   - Models of self-proppelled particles (SPP).
@@ -40,26 +38,90 @@ Due to its diverse adaptive advantages, collective motion is observed in a wide 
 
 #### Experimental approaches
   - High precision data of animals on the move.
+@divend
 
-https://www.youtube.com/watch?v=Y-5ffl5_7AI
+@div[right-50]
+![Video](https://www.youtube.com/embed/Y-5ffl5_7AI)
+@divend
 
+@ulend
+Note:
+- The underlying fundamental principles of collective motion are usually generalized, and therefore nearly independent of the specific details relative to the behavior of individual components, so they are transferable between systems of different nature. This characteristic is known as universality, and coupled with the many technological applications inspired by collective models, has attracted the attention of statistical physicists and theoretical biologists, as well as experimental scientists.
+
+- In theoretical approximations, the mechanisms by which local interactions between agents generate emergent global patterns is investigated with models of self-proppelled particles with interaction rules that can be varied.
+
+- In experimental approaches, the advances in tracking and image technologies have enabled to obtain high precision data of animals on the move and make and accurate analysis of individual behavior.
+
+- With this data, it is possible to compare the observations with simulated data results, and infer the underlying mechanisms of communication in collective motion events.
 
 
 ---
 ## Rules of interaction
-- Qué son
-- Ventajas adaptativas
 
-### INTRODUCTION
+- Flexibility in collective decision-making and information transfer processes.
+
+- Source of diversity of structures and dynamics observed in nature.
+
+- Individual and global variations.
+
+Note:
+- The different ways in which individuals interact give flexibility to a group in decision-making and information trasnfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
+
++++
+@div[left-50]
+#### Group variations:
+
+- Changes in the frequency and force of interactions.
+
+- External perturbations or internal states.  
+
+- Group's capacity to exhibit multiple stable collective states.
+@divend
+
+@div[right-50]
+
+#### Individual variations:
+
+- Difference in the rules of interaction within a group.
+
+-  Internal states, body-size, information or experience disparities.
+
+- Emergence of leader-follower dynamics.
+
+@divend
+
+These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.
+
+Note:
+Global variations
+
+- Group variation refers to changes in the frequency and the force by which individuals interact (By force i mean individuals' probability of responding to the movements of their neighbors), without changing the rules of interaction *per se*.
+
+- Group variation can occur as a response to an external perturbation, to internal states, or to different stages of development.
+
+- This variation expresses in groups' capacity to exhibit mutiple stable collective states: swarming to schooling to milling.
+
+Individual variations
+
+- Individual variation expresses in the difference in the rules of interaction within a group.
+
+- This can be a consequence of factors that affect the preferred individual's speed and direction (different body sizes, specific internal states) or to intrinsic differences in their behavior (more experiences individuals, familiarity, socially dominant) that change attention an individual puts on their neighbors in decision making processes.
+
+- Individual variation often causes the emergence of leader-follower dynamics (i.e. variations in individuals' probability to follow others).
 ---
 
-# GOALS
+## GOALS
+@ul[brighten]
 - Study the impact of the variation in group and individual interaction-rules:
-    - Ordering,
+
+    - Ordering
     - Information transfer
     - Decision-making
 
 - Compare emergent behaviors with those observed in animal collectives with flocking behavior.
+@ulend
+
++++
 
 
 ---
