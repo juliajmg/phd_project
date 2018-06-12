@@ -15,7 +15,7 @@
 - The interactions are central in order for different “phases” to emerge: disorder vs. order.
 
 - Observed in a wide range of biological systems.
- @ulend
+@ulend
 
 Note:
 - Collective motion is a type of behavior that consists of similar agents interacting in such a way that they achieve a coherent group displacement. By coherent i mean they adjust their speed, direction of motion and distance to each other to achieve cohesion and synchronization.
@@ -29,21 +29,18 @@ Note:
 ---
 ## The study of collective motion
 @ul[brighten]
-
-@div[left-40]
-Universality of the phenomenon.
-
-1. Theoretical approaches
+- Universality of the phenomenon.
+@div[left-50]
+- Theoretical approaches
   - Models of self-proppelled particles (SPP).
-
   - Variation of the rules of interaction.
 
-2. Experimental approaches
+- Experimental approaches
   - High precision data of animals on the move.
 
 @divend
 
-@div[right-60]
+@div[right-50]
 ![Video](https://www.youtube.com/embed/Y-5ffl5_7AI)
 @divend
 
@@ -72,23 +69,17 @@ Note:
 
 +++
 @div[left-50]
-GROUP VARIATION:
-
+- GROUP VARIATION:
   - Changes in the frequency and force of interactions.
-
   - External perturbations or internal states.  
-
   - Group's capacity to exhibit multiple stable collective states.
 @divend
 
 @div[right-50]
 
-INDIVIDUAL VARIATION:
-
-- Difference in the rules of interaction within a group.
-
+- INDIVIDUAL VARIATION:
+  - Difference in the rules of interaction within a group.
   - Internal states, body-size, information or experience disparities.
-
   - Emergence of leader-follower dynamics.
 
 @divend
