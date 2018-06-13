@@ -59,9 +59,9 @@ Note:
 
 
 ---
-## Rules of interaction
+## @color[#505160](Rules of interaction)
 
-- Flexibility in collective decision-making and information transfer processes.
+- @olor[#68829E](Flexibility in collective decision-making and information transfer processes.)
 
 - Source of diversity of structures and dynamics observed in nature.
 
