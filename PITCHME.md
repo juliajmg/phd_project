@@ -427,9 +427,9 @@ Note:
 
 ---
 
-### GOALS
+### @color[#FFBB00](GOALS)
 
-- Implement and vary collective motion interaction-rules on kilobots to study leader-follower dynamics, and their impact on information transfer and collective decision-making processes.
+- Implement and vary collective motion interaction-rules on kilobots to study @color[#FFBB00](leader-follower dynamics), and their impact on information transfer and collective decision-making processes.
 
 - Relate their behavior with those of animal collectives.
 
@@ -446,12 +446,13 @@ Note:
 
 ### REACH ALGORITHM
 @ul[brighten]
+@div[left-50]
 - First test algorithm
 
 - Purpose: For kilobots to reach a "leader", no matter their initial configuration.
 
-- **TRILATERATION**
-
+- Trilateration of robot B to localize robot A.
+@divend
 @ulend
 
 Note:
