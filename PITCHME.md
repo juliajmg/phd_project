@@ -366,7 +366,7 @@ Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human D
 * As a way of saving energy but still respond efficiently
 to perturbations.
 
----?image=kilobotswarm.jpg&position=right=size=50%
+---?image=kilobotswarm.jpg&position=right&size=50%
 
 ## @color[#FFBB00](Kilobots)
 @ul[brighten]
