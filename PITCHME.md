@@ -403,8 +403,15 @@ Note:
 
 ---
 ### Experimental setup
-Setup del overhead controller, kilobots y KiloGUI
+- Kilobots are programmed in C-programming language
+- Kilolib: kilobot-specific library
+@div[left-40]
+![KiloGUI](KiloGUI.png)
+@divend
 
+@div[right-60]
+![Overhead](Overhead_controller.png)
+@divend
 Note:
 The implementation of behavioral algorithms is done in C-programming language and they use a kilobot-specific library to control basic functions.
 The experimental setup is as shown: The executable is loaded from a graphical interface to an oberhead controller, that sends the programm via infrarred to all kilobots at once.
