@@ -382,7 +382,7 @@ Note:
 
 ---
 #### Description
-@ol[]
+@ul[]
 - Differential drive locomotion: Rotate at 45º/s and go forward 1cm/s.
 
 - On-board computation power: ATmega 328p microcontroller as CPU, with 32KB of memory
@@ -392,7 +392,7 @@ Note:
 - Nearby-robots distance sensing: IR intensity.
 
 - Display current state: RGB LED light.
-@olend
+@ulend
 Note:
 - They are aquipped with two independently-controllable vibrating motors to rotate to the left or right (at approximately 45º/s) and to go forward approximately 1cm/s. They have an infrared receiver and transmitter for close-range communication (of around 10 cm radius), and a RGB LED light emmiter to display information to the operator.
 - They have a ATmega 328p microcontroller as a brain with 32KB of memory, and they can exange up to 9 bytes of information and estimate distance to nearby-robots depending on infrarred intensity.
