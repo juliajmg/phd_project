@@ -2,7 +2,7 @@
 
 ## EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS
 
-@div[bottom-right-30]
+@div[right-30]
 - Julia Múgica Gallart
 
 - Thesis advisors:
