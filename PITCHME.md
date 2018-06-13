@@ -263,17 +263,17 @@ Buscar rangos de velocidades en peces.
 Note:
 In our simulations, we implemented an optimized version of the Vicsek model that divides the system $L^2$ in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. This way, to update the position of particle $i$, we only need to consider the particles of the nine neighboring boxes \cite{Ginelli2016}. In addition, our version of the system calculates first the sum of particles' orientation for each box, and later updates their positions.
 
-**FALTA: ENTENDER BIEN LA OPTIMIZACIÓN, CAMBIAR PUNTOS EN SLIDE Y HACER EL DIBUJO DE LAS CAJAS**
+**FALTA: ENTENDER BIEN LA OPTIMIZACIÓN, CAMBIAR PUNTOS EN SLIDE**
 
 ---?image=eta_vs_phi_v00.05a10.png&position=right&size=50%
 
-### To fix $\eta$
-
+### @color[#FFBB00](To fix $\eta$)
+@div[left-50]
 - Values of $\eta$ where disorder   
 and order states are observed:
 
   - $\eta$ = 0.3, 0.4, 0.5 and 0.6
-
+@divend
 Note:
 First, noise amplitude values were chosen for which both order and disorder states were observed for different $v_0$ values. We did different simulations for each eta value fixed of 0.3, 0.4, 0.5 and 0.6 as an exploratory analysis.  
 
@@ -283,6 +283,7 @@ First, noise amplitude values were chosen for which both order and disorder stat
 
 @div[right-50]
 - Disorder-to-order phase transitions
+
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
 @divend
 
