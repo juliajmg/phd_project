@@ -44,7 +44,7 @@ Note:
 
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
----?image=study_approaches.png&position=right&size=20% 60%
+---?image=study_approaches-1.png&position=right&size=20% 60%
 ### The study of collective motion
 @ul[brighten]
 - Universality of the phenomenon.
@@ -69,27 +69,29 @@ Note:
 
 
 ---
-## @color[#505160](Rules of interaction)
-
-- @color[#68829E](Flexibility in collective decision-making and information transfer processes.)
+## @color[#FFBB00](Rules of interaction)
+@ul[brighten]
+- Flexibility in collective decision-making and information transfer processes.)
 
 - Source of diversity of structures and dynamics observed in nature.
 
 - Individual and global variations.
-
+@ulend
 Note:
 - The different ways in which individuals interact give flexibility to a group in decision-making and information transfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
 
 +++
 #### Variation in the rules of interaction
 @ul[brighten]
-<span style="font-size:0.6em">
-- Group variation
+<span style="font-size:0.8em">
+- @color[#FFBB00](Group variation)
+
   - Changes in the frequency and force of interactions.
   - External perturbations or internal states.
   - Group's capacity to exhibit multiple stable collective states.
 
-- Individual variation  
+- @color[#FFBB00](Individual variation)
+
   - Difference in the rules of interaction within a group.
   - Internal states, body-size, information or experience disparities.
   - Emergence of leader-follower dynamics.
@@ -129,16 +131,17 @@ These variations are relevant to understand which strategies groups can adopt to
 @ulend
 
 
-+++
+---
 #### SPECIFIC GOALS
 
-- Study the effects of varying agents' velocity on the ordering the ordering of the system.
-  - Numeric simulations of SPPs.
-  - Fish schools data.
+- @color[#FFBB00](Variation in agents' velocity.)
+  - Impact on the ordering of the system.
+  - Numeric simulations of SPPs and experimental fish data.
 
-- Examine the impact of leader-follower relationships on the information transfer and collective decision-making of agents subjected to different social and environmental contexts.
-  - Swarms of interacting autonomous mini-robots
-  - Fish schools data.
+- @color[#FFBB00](Leader-follower relationships.)
+  - Information transfer and collective decision-making
+  - Different social and environmental contexts.
+  - Swarms of mini-robots.
 
 Note:
 - For this purpose, we are currently working with experimental data with swarms of interacting autonomous mini-robots to examine leader-follower dynamics, and with numeric simulations using simple models of self-propelled particles (SPP) to examine phase transitions when particles velocity is increased.
@@ -149,7 +152,7 @@ Note:
 
 ---?image=Vicsek_dynamics.png&position=right&size=35%
 
-## @color[](Vicsek model)
+## @color[#FFBB00](Vicsek model)
 
 - Model of self-propelled particles (SPP).  
 
