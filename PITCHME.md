@@ -44,7 +44,7 @@ Note:
 
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
----?image=study_approaches.png&position=right&size=50% 60%
+---?image=study_approaches.png&position=right&size=40% 40%
 ### The study of collective motion
 @ul[brighten]
 - Universality of the phenomenon.
