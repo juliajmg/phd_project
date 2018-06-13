@@ -15,7 +15,7 @@
 
 ---?image=collective_motion.png&position=right&size=40%
 ## Collective motion
-
+@div[left-50]
 @ul[brighten]
 - Similar individual units that **interact**:
   - Speed
@@ -28,6 +28,7 @@
 
 - Observed in a wide range of biological systems.
 @ulend
+@divend
 
 Note:
 - Collective motion is a type of behavior that consists of similar agents interacting in such a way that they achieve a coherent group displacement. By coherent i mean they adjust their speed, direction of motion and distance to each other to achieve cohesion and synchronization.
