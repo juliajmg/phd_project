@@ -16,10 +16,11 @@ Thesis directors:
 @div[left-50]
 ##  INTRODUCTION
 
----?image=collective_motion.png&position=right&size=33% 90%
+---?image=collective_motion.png&position=right&size=33% 60%
 ## Collective motion
-@div[left-64]
+@div[left-63]
 @ul[brighten]
+<span style="font-size:1em">
 - Similar individual units that **interact**:
   - Speed
   - Direction of motion
@@ -30,6 +31,7 @@ Thesis directors:
 - Local interactions cause different “phases” to emerge: disorder vs. order.
 
 - Observed in a wide range of biological systems.
+</span>
 @ulend
 @divend
 
