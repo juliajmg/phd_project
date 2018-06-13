@@ -1,3 +1,10 @@
+background : flocking_birds.jpg
+background-size : 50% 100%
+background-position : right center
+background-color : "##4C3F54"
+
+
+
 layout : top-left
 
 mathjax : TeX-MML-AM_HTMLorMML-full
