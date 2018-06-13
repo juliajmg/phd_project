@@ -1,9 +1,7 @@
----?image=flocking_birds.jpg&position=right&size=50% 100%
-
 
 ## EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS
 
-@div[left-50]
+
 Julia Múgica Gallart  
 
 Thesis directors:  
@@ -11,15 +9,16 @@ Thesis directors:
 - Dr. Romulado Pastor-Satorras
 
 - Dra. M. Carmen Miguel López
-@divend
 
----
 
+---?image=flocking_birds.jpg&position=right&size=50% 100%
+
+@div[left-50]
 #  INTRODUCTION
 
----?image=collective_motion.png&position=right&size=30%
-## @color[#D13525](Collective motion)
-@div[left-60]
+---?image=collective_motion.png&position=right&size=35%
+## Collective motion
+@div[left-65]
 @ul[brighten]
 - Similar individual units that **interact**:
   - Speed
