@@ -217,7 +217,7 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 ---
 
 ### Phase transition as a function of agents' velocity
-@div[left-50]
+@div[left-65]
 @ul[brighten]
 
 - Observations on fish collective motion:
@@ -228,7 +228,7 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 @ulend
 @divend
 
-@div[right-50]
+@div[right-30]
 ![turnstrom](Figure_S10.png)
 @divend
 
