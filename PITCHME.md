@@ -8,11 +8,14 @@
 ## Collective motion
 
 @ul[brighten]
-- Similar individual units that **interact** by adjusting their speed, direction of motion and distance to each other, to achieve a coherent group displacement.
+- Similar individual units that **interact**:
+  - Speed
+  - Direction of motion
+  - Distance to each other.
 
 - No central control: self-organization.
 
-- The interactions are central in order for different “phases” to emerge: disorder vs. order.
+- Local interactions cause different “phases” to emerge: disorder vs. order.
 
 - Observed in a wide range of biological systems.
 @ulend
@@ -27,9 +30,9 @@ Note:
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
 ---
-### The study of collective motion
+### @color[#4C3F54](The study of collective motion)
 @ul[brighten]
-- Universality of the phenomenon.
+- @color[#D13525](Universality of the phenomenon.)
 @div[left-70]
 - Theoretical approaches
   - Models of self-proppelled particles (SPP).
@@ -445,11 +448,9 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 
 #### RANDOM-WALK-BASED SEARCH
 
-- First stage of implementation:
-- Choosing among six possible turning angles:
-  - poner los ángulos
-  - Hacer dibujo de esto.
-- 
+- First stage of implementation.
+  - Chooses among six possible turning angles.
+  - Turns and walks forward
 
 ---
 
@@ -466,7 +467,14 @@ VIDEOS DE ROBOTS CON ALGORITMOS, Y DIBUJO DE LO QUE FALTA.
 
 ### FUTURE WORK
 
-- Mantain minimum distances among neighoring kilobots while moving collectively.
+**Short-term**
+- Mantain minimum distances among neighoring kilobots while reaching the "leader"
+- Implement a distance-compensation mechanism for followers to follow the "leader" while moving.
+
+- First study: compare reach-target efficiency by
+
+
+Mid-term
 
 - Implement leader-follower dynamics and compare information transfer and decision-making effiency on the direction of motion for different dynamics.
 
