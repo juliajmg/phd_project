@@ -16,7 +16,7 @@ Thesis directors:
 @div[left-50]
 ##  INTRODUCTION
 
----?image=collective_motion.png&position=right&size=33% 60%
+---?image=collective_motion.png&position=right&size=40% 60%
 ## Collective motion
 @div[left-63]
 @ul[brighten]
@@ -28,9 +28,9 @@ Thesis directors:
 
 - No central control: self-organization.
 
-- Local interactions cause different “phases” to emerge: disorder vs. order.
+- Different “phases”: disorder vs. order.
 
-- Observed in a wide range of biological systems.
+- Wide range of biological systems.
 </span>
 @ulend
 @divend
@@ -49,11 +49,11 @@ Note:
 @ul[brighten]
 - Universality of the phenomenon.
 @div[left-70]
-- @color[#D0E1F9](Theoretical approaches)
+- @color[#D70026](Theoretical approaches)
   - Models of self-proppelled particles (SPP).
   - Variation of the rules of interaction.
 
-- @color[#D0E1F9](Experimental approaches)
+- @color[#D70026](Experimental approaches)
   - High precision data of animals on the move.
 
 @divend
