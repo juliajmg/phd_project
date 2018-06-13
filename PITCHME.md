@@ -14,7 +14,7 @@ Thesis directors:
 ---?image=flocking_birds.jpg&position=right&size=50% 100%
 
 @div[left-50]
-#  INTRODUCTION
+##  INTRODUCTION
 
 ---?image=collective_motion.png&position=right&size=35%
 ## Collective motion
@@ -43,21 +43,21 @@ Note:
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
 ---
-### @color[#4C3F54](The study of collective motion)
+### The study of collective motion
 @ul[brighten]
-- @color[#D13525](Universality of the phenomenon.)
+- Universality of the phenomenon.
 @div[left-70]
-- Theoretical approaches
+- @color[#D0E1F9](Theoretical approaches)
   - Models of self-proppelled particles (SPP).
   - Variation of the rules of interaction.
 
-- Experimental approaches
+- @color[#D0E1F9](Experimental approaches)
   - High precision data of animals on the move.
 
 @divend
-
 @div[right-30]
-![Video](https://www.youtube.com/embed/Y-5ffl5_7AI)
+![spp](spp.png)
+![Trayectorias](TrayectoriaNeon.png)
 @divend
 
 @ulend
