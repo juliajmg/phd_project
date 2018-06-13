@@ -252,15 +252,14 @@ Buscar rangos de velocidades en peces.
 @div[left-50]
 - Computational optimization of the Vicsek model
 
-  -  <span style="font-size:0.6em">System $L^2$ divided in boxes of size $R_{0} (Ginelli et al. 2016).
+  -  <span style="font-size:0.6em">System $L^2$ divided in boxes of size $R_{0}$ (Ginelli et al. 2016)</span>
 
-  - First sum particles' orientation for each box, and update their positions afterwards.  
+  - <span style="font-size:0.6em">First sum particles' orientation for each box, and update their positions afterwards.</span>
 
-- Changes in $\phi$ as $v_0 is increased.
+- <span style="font-size:0.6em">Changes in $\phi$ as $v_0 is increased.
     - N = 10,000
     - Time = 100,000
-    - $\rho$ from 0.1 to 2.
-</span>
+    - $\rho$ from 0.1 to 2</span>
 @divend
 @ulend
 Note:
