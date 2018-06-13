@@ -435,19 +435,12 @@ Note:
 
 - Contribute with collective algorithms with which robots swarms can efficiently fulfill complex tasks.
 
-
----
-#### LOCALIZATION BY DISTANCE SENSING
-
-- Kilobots rely only on distance sensing to obtain relative positions and orientations of nearby robots.
-
-
 ---?image=reach_algorithm.png&position=right&size=50%
 
 ### REACH ALGORITHM
 @ul[]
 @div[left-50]
-
+- Lozalization only by distance sensing
 - First test algorithm
 
 - Purpose: For kilobots to reach a "leader", no matter their initial configuration.
@@ -459,15 +452,17 @@ Note:
 
 Note:
 
+- Kilobots rely only on distance sensing to obtain relative positions and orientations of nearby robots.
+
 Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, $d_{t}$ and the distance kilobot B moved from t-1 to t. $\beta$ angle is also shown.
 
----
+---?image=random_walk.png&position=right&size=50%
 
 #### RANDOM-WALK-BASED SEARCH
 
 - First stage of implementation.
-  - Chooses among six possible turning angles.
-  - Turns and walks forward
+  - Chooses among six possible turning angles (62, 93, 124, 155, 186, 217)
+  - Turns and walks forward for 3cm.
 
 ---
 
