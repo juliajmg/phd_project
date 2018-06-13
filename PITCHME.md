@@ -460,13 +460,13 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 
 #### RANDOM-WALK-BASED SEARCH
 @div[left-50]
-- First stage of implementation.
-  - Chooses among six possible turning angles (62, 93, 124, 155, 186, 217)
-  - Turns and walks forward for 3cm.
+- First stage of implementation
+  - Chooses among six posible turning angles (62, 93, 124, 155, 186, 217)
+  - Turns and walks forward for 3cm
 @divend
----?image=kilombo_example.png&position=right&size=50%
+---?image=kilombo_example.png&position=right&size=45%
 
-### KILOMBO
+### @color[#FFBB00](KILOMBO)
 
 - C-based kilobots simulator.
 - Efficient hypothesis testing.
