@@ -245,14 +245,14 @@ Here, we want to prove if it is possible to reproduce the velocity-dependent dis
 Buscar rangos de velocidades en peces.
 
 
----?image=Vicsek_op.png&position=left&size=50%
+---?image=Vicsek_op.png&position=right&size=50%
 
 ### Numerical simulations of the Vicsek model
 @ul[brighten]
 @div[left-50]
 - Computational optimization of the Vicsek model
 
-  - System $L^2$ divided in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. <span style="font-size:0.6em; color:grey">(Ginelli et al. 2016)</span>
+  -  <span style="font-size:0.6em">System $L^2$ divided in boxes of size $R_{0} (Ginelli et al. 2016).
 
   - First sum particles' orientation for each box, and update their positions afterwards.  
 
@@ -260,7 +260,7 @@ Buscar rangos de velocidades en peces.
     - N = 10,000
     - Time = 100,000
     - $\rho$ from 0.1 to 2.
-
+</span>
 @divend
 @ulend
 Note:
@@ -280,15 +280,13 @@ and order states are observed:
 Note:
 First, noise amplitude values were chosen for which both order and disorder states were observed for different $v_0$ values. We did different simulations for each eta value fixed of 0.3, 0.4, 0.5 and 0.6 as an exploratory analysis.  
 
----?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=left&size=35%
+---?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=35%
 
 ### Changes in $\phi$, by changing $v_{0}$ and $\rho$
 
 @div[right-50]
-- **Disorder-to-order phase transition**
-
+- Disorder-to-order phase transitions
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
-
 @divend
 
 
