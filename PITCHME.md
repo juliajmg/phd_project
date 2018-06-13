@@ -16,9 +16,9 @@ Thesis directors:
 @div[left-50]
 ##  INTRODUCTION
 
----?image=collective_motion.png&position=right&size=40% 60%
+---?image=collective_motion.png&position=right&size=36% 60%
 ## Collective motion
-@div[left-63]
+@div[left-60]
 @ul[brighten]
 <span style="font-size:1em">
 - Similar individual units that **interact**:
@@ -44,7 +44,7 @@ Note:
 
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
----
+---?image=study_approaches.png&position=right&size=50%
 ### The study of collective motion
 @ul[brighten]
 - Universality of the phenomenon.
@@ -57,10 +57,6 @@ Note:
   - High precision data of animals on the move.
 
 @divend
-@div[right-30]
-![approaches](study_approaches.png)
-@divend
-
 @ulend
 Note:
 - The underlying fundamental principles of collective motion are usually generalized, and therefore nearly independent of the specific details relative to the behavior of individual components, so they are transferable between systems of different nature. This characteristic is known as universality, and coupled with the many technological applications inspired by collective models, has attracted the attention of statistical physicists and theoretical biologists, as well as experimental scientists.
