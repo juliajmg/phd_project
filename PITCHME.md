@@ -373,7 +373,7 @@ to perturbations.
 - Designed as swarm robots:
   - Simple
   - Low-cost ($14)
-  - Small (~3 cm of diameter)
+  - Small (~3cm of diameter)
   - Scalable
 @ulend
 
@@ -382,30 +382,22 @@ Note:
 
 ---
 #### Description
+@ol[]
+- Differential drive locomotion: Rotate at 45º/s and go forward 1cm/s.
 
-1. Differential drive locomotion:
-  1. Two vibrating motors.
-    1. Rotate at 45º/s and go forward 1cm/s.
+- On-board computation power: ATmega 328p microcontroller as CPU, with 32KB of memory
 
-2. On-board computation power.
-  1. ATmega 328p microcontroller as CPU.
-    1. 32KB of memory.
+- Naearby-robots communication by infrared (IR): 10 cm radius.
 
-3. Naearby-robots communication
-  1. Infrared (IR) transmitter and receiver
-    1. 10 cm radius.
+- Nearby-robots distance sensing: IR intensity.
 
-4. Nearby-robots distance sensing
-  1. IR intensity.
-
-5. Display current state
-  1. RGB LED light.
-
+- Display current state: RGB LED light.
+@olend
 Note:
 - They are aquipped with two independently-controllable vibrating motors to rotate to the left or right (at approximately 45º/s) and to go forward approximately 1cm/s. They have an infrared receiver and transmitter for close-range communication (of around 10 cm radius), and a RGB LED light emmiter to display information to the operator.
 - They have a ATmega 328p microcontroller as a brain with 32KB of memory, and they can exange up to 9 bytes of information and estimate distance to nearby-robots depending on infrarred intensity.
 
-+++
+---
 ### Experimental setup
 Setup del overhead controller, kilobots y KiloGUI
 
