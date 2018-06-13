@@ -49,17 +49,16 @@ Note:
 @ul[brighten]
 - Universality of the phenomenon.
 @div[left-70]
-- @color[#CB0000](Theoretical approaches)
+- @color[#FFBB00](Theoretical approaches)
   - Models of self-proppelled particles (SPP).
   - Variation of the rules of interaction.
 
-- @color[#CB0000](Experimental approaches)
+- @color[#FFBB00](Experimental approaches)
   - High precision data of animals on the move.
 
 @divend
 @div[right-30]
-![spp](spp.png)
-![Trayectorias](TrayectoriaNeon.png)
+![approaches](study_approaches.png)
 @divend
 
 @ulend
