@@ -240,13 +240,12 @@ The occurrence of a velocity dependent phase transition has been detected in var
 
 Here, we want to prove if it is possible to reproduce the velocity-dependent disorder to order phase transition in fish collectives in a model as simple as the Vicsek model.
 
-**FALTA: PONER PRUEBAS SOBRE LOS PECES Y LA VELOCIDAD**
+
 
 ![Video](https://www.youtube.com/embed/xYl4m0xFcCU)
 
 ![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 
-()
 
 Buscar rangos de velocidades en peces.
 
@@ -274,7 +273,7 @@ In our simulations, we implemented an optimized version of the Vicsek model that
 
 **FALTA: ENTENDER BIEN LA OPTIMIZACIÓN, CAMBIAR PUNTOS EN SLIDE Y HACER EL DIBUJO DE LAS CAJAS**
 
----?image=eta_vs_phi_v00.05a10.png&position=right&size=48%
+---?image=eta_vs_phi_v00.05a10.png&position=right&size=50%
 
 ### To fix $\eta$
 
