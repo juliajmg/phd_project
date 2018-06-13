@@ -269,10 +269,12 @@ In our simulations, we implemented an optimized version of the Vicsek model that
 
 ### @color[#FFBB00](To fix $\eta$)
 @div[left-50]
+@ul[brighten]
 - Values of $\eta$ where disorder   
-and order states are observed:
+and order states are observed
 
-  - $\eta$ = 0.3, 0.4, 0.5 and 0.6
+- $\eta$ = 0.3, 0.4, 0.5 and 0.6
+@ulend
 @divend
 Note:
 First, noise amplitude values were chosen for which both order and disorder states were observed for different $v_0$ values. We did different simulations for each eta value fixed of 0.3, 0.4, 0.5 and 0.6 as an exploratory analysis.  
@@ -282,6 +284,7 @@ First, noise amplitude values were chosen for which both order and disorder stat
 ### Changes in $\phi$, by changing $v_{0}$ and $\rho$
 
 @div[right-50]
+
 - Disorder-to-order phase transitions
 
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
