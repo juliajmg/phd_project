@@ -383,19 +383,18 @@ Note:
 ---?image=Kilobot_description.png&position=right&size=40% 90%
 #### Description
 @ul[]
-@div[left-50]
-- Differential drive locomotion: Rotate at 45º/s and go forward 1cm/s.
+@div[left-65]
+- @color[#FFBB00](Differential drive locomotion:)
+  - <span style="font-size:0.5em">Rotate at 45º/s and go forward 1cm/s.</span>
 
-- On-board computation power: ATmega 328p microcontroller as CPU, with 32KB of memory
+- "color[#FFBB00](On-board computation power):
+  - <span style="font-size:0.5em">ATmega 328p microcontroller as CPU, with 32KB of memory</span>
 
-- Naearby-robots communication by infrared (IR): 10 cm radius.
-@divend
-@ulend
+- color[#FFBB00](Nearby-robots communication and distance sensing:)
+  - <span style="font-size:0.5em">Infrared (IR) with 10 cm radius.</span>
 
-@ul[]
-@div[right-50]
-- Nearby-robots distance sensing: IR intensity.
-- Display current state: RGB LED light.
+- @color[#FFBB00](Display current state:)
+  <span style="font-size:0.5em">RGB LED light.</span>
 @divend
 @ulend
 Note:
