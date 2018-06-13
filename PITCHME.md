@@ -401,17 +401,15 @@ Note:
 - They are aquipped with two independently-controllable vibrating motors to rotate to the left or right (at approximately 45º/s) and to go forward approximately 1cm/s. They have an infrared receiver and transmitter for close-range communication (of around 10 cm radius), and a RGB LED light emmiter to display information to the operator.
 - They have a ATmega 328p microcontroller as a brain with 32KB of memory, and they can exange up to 9 bytes of information and estimate distance to nearby-robots depending on infrarred intensity.
 
----
+---?image=Overhead_controller.png&position=right&size=50%
 ### Experimental setup
+@div[left-40]
 - Kilobots are programmed in C-programming language
 - Kilolib: kilobot-specific library
-@div[left-40]
+
 ![KiloGUI](KiloGUI.png)
 @divend
 
-@div[right-60]
-![Overhead](Overhead_controller.png)
-@divend
 Note:
 The implementation of behavioral algorithms is done in C-programming language and they use a kilobot-specific library to control basic functions.
 The experimental setup is as shown: The executable is loaded from a graphical interface to an oberhead controller, that sends the programm via infrarred to all kilobots at once.
