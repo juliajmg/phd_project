@@ -15,7 +15,7 @@
 
 ---?image=collective_motion.png&position=right&size=40%
 ## Collective motion
-@div[left-50]
+@div[left-65]
 @ul[brighten]
 - Similar individual units that **interact**:
   - Speed
