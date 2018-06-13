@@ -445,13 +445,15 @@ Note:
 ---?image=reach_algorithm.png&position=right&size=50%
 
 ### REACH ALGORITHM
-@ul[brighten]
+@ul[]
 @div[left-50]
+
 - First test algorithm
 
 - Purpose: For kilobots to reach a "leader", no matter their initial configuration.
 
 - Trilateration of robot B to localize robot A.
+
 @divend
 @ulend
 
