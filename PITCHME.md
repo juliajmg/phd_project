@@ -347,34 +347,74 @@ FOTO DE ZEBRAFISH
 Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.**
 * As a way of saving energy but still respond efficiently
 to perturbations.
----
+
+---?image=
 
 ## Kilobots
-- Simple low-cost swarm robot by the Self-organizing Systems Research Group at Harvard University.
+@ul[brighten]
+- Designed as swarm robots:
+  - Simple
+  - Low-cost ($14)
+  - Small (~3 cm of diameter)
+  - Scalable
+@ulend
 
-CARACTERÍSTICAS Y FOTO
+Note:
+- Kilobots are simple low-cost robots, designed by the Self-Organizing Systems Research Group at Harvard University, with the intention of building a robot with which collective behaviors algorithms could be tested. They are reasonable cheap (about 14 dollars each), small (around 3 cm of diameter) and scalable (you can handle all kilobots at once, in the sense of programming, powering them on and charging)
 
 +++
+#### Description
 
+1. Differential drive locomotion:
+  1. Two vibrating motors.
+    1. Rotate at 45º/s and go forward 1cm/s.
+
+2. On-board computation power.
+  1. ATmega 328p microcontroller as CPU.
+    1. 32KB of memory.
+
+3. Naearby-robots communication
+  1. Infrared (IR) transmitter and receiver
+    1. 10 cm radius.
+
+4. Nearby-robots distance sensing
+  1. IR intensity.
+
+5. Display current state
+  1. RGB LED light.
+
+Note:
+- They are aquipped with two independently-controllable vibrating motors to rotate to the left or right (at approximately 45º/s) and to go forward approximately 1cm/s. They have an infrared receiver and transmitter for close-range communication (of around 10 cm radius), and a RGB LED light emmiter to display information to the operator.
+- They have a ATmega 328p microcontroller as a brain with 32KB of memory, and they can exange up to 9 bytes of information and estimate distance to nearby-robots depending on infrarred intensity.
+
++++
+### Experimental setup
 Setup del overhead controller, kilobots y KiloGUI
 
+Note:
+The implementation of behavioral algorithms is done in C-programming language and they use a kilobot-specific library to control basic functions.
+The experimental setup is as shown: The executable is loaded from a graphical interface to an oberhead controller, that sends the programm via infrarred to all kilobots at once.
+
+Kilobots move in a smooth, flat and glossy surface: concretely a dry erase white board.
 ---
 
-- Kilobots have been used to study:
+#### Kilobots have been used to study:
 
 1. Collective decision-making
-2. Space exploratin and eficiency in information transfer
+2. Space exploration and efficiency in information transfer
 3. Collective transport of objects.
 
 FOTOS Y VIDEOS DE LOS ESTUDIOS: Valentini2016, Dimidov2016 Rubenstein2013
+Note:
+
 
 ---
 
-### GOAL
+### GOALS
 
 - Implement and vary collective motion interaction-rules on kilobots to study leader-follower dynamics, and their impact on information transfer and collective decision-making processes.
 
-- Relate their behavior with those of animal collectives, and on the other
+- Relate their behavior with those of animal collectives.
 
 - Contribute with collective algorithms with which robots swarms can efficiently fulfill complex tasks.
 
@@ -382,20 +422,23 @@ FOTOS Y VIDEOS DE LOS ESTUDIOS: Valentini2016, Dimidov2016 Rubenstein2013
 ---
 #### LOCALIZATION BY DISTANCE SENSING
 
-- Kilobots rely only on distance measuring to obtain relative positions and orientations of nearby robots.
-- They need information to collectively move.
+- Kilobots rely only on distance sensing to obtain relative positions and orientations of nearby robots.
 
----
+
+---?image=reach_algorithm.png&position=right&size=50%
 
 ### REACH ALGORITHM
+@ul[brighten]
+- First test algorithm
 
-Purpose: For kilobots to follow each other, no matter their initial configuration.
+- Purpose: For kilobots to reach a "leader", no matter their initial configuration.
 
-#### TRILATERATION
--
+- **TRILATERATION**
 
-FIGURA 5: mejorarla para enseñar como se resuelve la ambiguedad, y luego como se acerca a el.
-![](reach_algorithm.png)
+@ulend
+
+Note:
+
 Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, $d_{t}$ and the distance kilobot B moved from t-1 to t. $\beta$ angle is also shown.
 
 ---
@@ -406,6 +449,7 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 - Choosing among six possible turning angles:
   - poner los ángulos
   - Hacer dibujo de esto.
+- 
 
 ---
 
