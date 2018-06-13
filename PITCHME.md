@@ -229,7 +229,7 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 @divend
 
 @div[right-50]
-![turnstrom](Figure_S10.tiff)
+![turnstrom](Figure_S10.png)
 @divend
 
 
@@ -285,7 +285,7 @@ and order states are observed:
 Note:
 First, noise amplitude values were chosen for which both order and disorder states were observed for different $v_0$ values. We did different simulations for each eta value fixed of 0.3, 0.4, 0.5 and 0.6 as an exploratory analysis.  
 
----?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=35%
+---?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=left&size=35%
 
 ### Changes in $\phi$, by changing $v_{0}$ and $\rho$
 
@@ -319,7 +319,7 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
-+++
+---
 
 - A rapid increase in polarization at critical velocity value: advantage for fish in predation risk avoidance.
 
