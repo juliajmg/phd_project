@@ -245,11 +245,11 @@ Here, we want to prove if it is possible to reproduce the velocity-dependent dis
 Buscar rangos de velocidades en peces.
 
 
----?image=Vicsek_op.png&position=right&size=50%
+---?image=Vicsek_op.png&position=right&size=40%
 
 ### Numerical simulations of the Vicsek model
 @ul[brighten]
-@div[left-50]
+@div[left-60]
 - Computational optimization of the Vicsek model
 
   -  <span style="font-size:0.6em">System $L^2$ divided in boxes of size $R_{0}$ (Ginelli et al. 2016)</span>
