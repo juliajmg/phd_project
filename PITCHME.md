@@ -229,7 +229,7 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 @divend
 
 @div[right-50]
-![turnstrom](Figure_S10_turnstrom.png)
+![turnstrom](Figure_S10.tiff)
 @divend
 
 
