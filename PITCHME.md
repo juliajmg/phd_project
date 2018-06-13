@@ -1,4 +1,4 @@
----?image
+---?image=flocking_birds.png&position=right&size=50%
 
 ## EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS
 
@@ -10,7 +10,7 @@ Thesis advisors:
 
 ---
 
-# INTRODUCTION
+#  @layout[center](INTRODUCTION)
 
 ---?image=collective_motion.png&position=right&size=30%
 ## @color[#D13525](Collective motion)
