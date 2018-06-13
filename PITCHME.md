@@ -459,11 +459,13 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 ---?image=random_walk.png&position=right&size=50%
 
 #### RANDOM-WALK-BASED SEARCH
+@ul[brighten]
 @div[left-50]
 - First stage of implementation
   - Chooses among six posible turning angles (62, 93, 124, 155, 186, 217)
   - Turns and walks forward for 3cm
 @divend
+@ulend
 ---?image=kilombo_example.png&position=right&size=45%
 
 ### @color[#FFBB00](KILOMBO)
