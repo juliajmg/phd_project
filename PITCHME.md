@@ -1,9 +1,10 @@
----?image=flocking_birds.png&position=right&size=50%
+---?image=flocking_birds.jpg&position=right&size=50%
 
 ## EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS
 
 
-Julia Múgica Gallart
+Julia Múgica Gallart  
+
 Thesis advisors:
 - Dr. Romulado Pastor-Satorras
 - Dra. M. Carmen Miguel López
