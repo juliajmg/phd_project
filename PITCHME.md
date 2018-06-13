@@ -404,8 +404,6 @@ Note:
 ---?image=Overhead_controller.png&position=right&size=50%
 ### Experimental setup
 @div[left-40]
-- Kilobots are programmed in C-programming language
-- Kilolib: kilobot-specific library
 
 ![KiloGUI](KiloGUI.png)
 @divend
