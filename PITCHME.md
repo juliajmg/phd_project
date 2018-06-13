@@ -3,8 +3,8 @@
 ## EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS
 
 @div[right-30]
-- Julia Múgica Gallart
 
+- Julia Múgica Gallart
 - Thesis advisors:
   - Dr. Romulado Pastor-Satorras
   - Dra. M. Carmen Miguel López
@@ -13,7 +13,7 @@
 
 # INTRODUCTION
 
----
+---?image=collective_motion.png&position=right&size=40%
 ## Collective motion
 
 @ul[brighten]
