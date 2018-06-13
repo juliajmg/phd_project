@@ -175,17 +175,17 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 
 ### Parameters:
 
-@ul[brighten]
-- **Density $\rho$**: <span style="font-size:0.6em; color:grey">Number of particles $N$ in a volume $R^d$</span>.
 
-- **Velocity $v_{0}$**
+- Density $\rho$: <span style="font-size:0.6em; color:#FFBB00">Number of particles $N$ in a volume $R^d$</span>.
 
-- **Noise amplitude $\eta$**: <span style="font-size:0.6em; color: grey">white noise uniformly distributed in $[-\pi , \pi]$</span>
+- Velocity $v_{0}$
 
-- **Order parameter** $<span style="font-size:0.6em; color: grey">\phi$: Average normalized velocity,</span>
+- Noise amplitude $\eta$: <span style="font-size:0.6em; color:#FFBB00">white noise uniformly distributed in $[-\pi , \pi]$</span>
+
+- Order parameter $\phi$:<span style="font-size:0.6em; color:#FFBB00">Average normalized velocity,</span>
 
 `$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$`
-@ulend
+
 
 Note:
 The parameters of the model are the density of particles, meaning, the number of particles N in a volume. The velocity v_0, the noise amplitude and the order parámeter phi.
@@ -203,8 +203,9 @@ The parameters of the model are the density of particles, meaning, the number of
 @divend
 
 @div[right-50]
-![Chate2008](FirstTransitionEvidence.png)
 <span style="font-size:0.6em; color:grey">Gregoire and Chaté, 2008</span>
+![Chate2008](FirstTransitionEvidence.png)
+
 @divend
 
 Note:
@@ -216,15 +217,20 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 ---
 
 ### Phase transition as a function of agents' velocity
+@div[left-50]
 @ul[brighten]
 
-- COLLECTIVE MOTION OF FISH
-  - Disorder-to-order phase transition as a function of velocity in fish:
-    - Higher average polarization ($\phi$) at higher swimming speeds ($v_0$).
+- Observations on fish collective motion:
+  - Higher polarization ($\phi$) at higher swimming speeds ($v_0$).
+  - <span style="font-size:0.5em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
 
-- ¿Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?
-
+- @color[#FFBB00](¿Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?)
 @ulend
+@divend
+
+@div[right-50]
+![turnstrom](Figure_S10_turnstrom.png)
+@divend
 
 
 Note:
@@ -240,7 +246,7 @@ Here, we want to prove if it is possible to reproduce the velocity-dependent dis
 
 ![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 
-(Gautrais2012; Tunstrom2013, Rieucau2014)
+()
 
 Buscar rangos de velocidades en peces.
 
