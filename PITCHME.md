@@ -270,8 +270,7 @@ In our simulations, we implemented an optimized version of the Vicsek model that
 ### @color[#FFBB00](To fix $\eta$)
 @div[left-50]
 @ul[brighten]
-- Values of $\eta$ where disorder   
-and order states are observed
+- Values of $\eta$ where disorder and order states are observed
 
 - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 @ulend
@@ -283,9 +282,8 @@ First, noise amplitude values were chosen for which both order and disorder stat
 
 ### Changes in $\phi$, by changing $v_{0}$ and $\rho$
 
-@div[right-50]
-
-- Disorder-to-order phase transitions
+@div[left-50]
+- Disorder to order phase transitions.
 
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
 @divend
@@ -317,8 +315,13 @@ Which means that with little increase in velocity, theres an increase of factor 
 
 - A rapid increase in polarization at critical velocity value: advantage for fish in predation risk avoidance.
 
+@div[left-50]
 
+![Video](https://www.youtube.com/embed/SIg5d_mi92k)
+@divend
 
+@div[right-50]
+SIMULACIÓN CON AUMENTO EN VEL.
 Note:
 **FALTA: SIMULACIÓN DE PARTÍCULAS**
 The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
@@ -363,9 +366,9 @@ Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human D
 * As a way of saving energy but still respond efficiently
 to perturbations.
 
----?image=
+---?image=kilobotswarm.jpg&position=right=size=50%
 
-## Kilobots
+## @color[#FFBB00](Kilobots)
 @ul[brighten]
 - Designed as swarm robots:
   - Simple
@@ -377,7 +380,7 @@ to perturbations.
 Note:
 - Kilobots are simple low-cost robots, designed by the Self-Organizing Systems Research Group at Harvard University, with the intention of building a robot with which collective behaviors algorithms could be tested. They are reasonable cheap (about 14 dollars each), small (around 3 cm of diameter) and scalable (you can handle all kilobots at once, in the sense of programming, powering them on and charging)
 
-+++
+---
 #### Description
 
 1. Differential drive locomotion:
