@@ -214,7 +214,7 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 **FALTA: VER CONDICIONES DE SIMULACIÓN DE CHATÉ, Y EN QUÉ VA ESA DISCUSIÓN**
 
 - This has resulted in a number of studies investigating phase transitions varying system's parameters \cite{Aldana2009}.
----
+---?image=Figure_S10.png&position=right&size=30%
 
 ### Phase transition as a function of agents' velocity
 @div[left-65]
@@ -226,10 +226,6 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 
 - @color[#FFBB00](¿Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?)
 @ulend
-@divend
-
-@div[right-30]
-![turnstrom](Figure_S10.png)
 @divend
 
 
