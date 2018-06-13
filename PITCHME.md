@@ -214,15 +214,14 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 **FALTA: VER CONDICIONES DE SIMULACIÓN DE CHATÉ, Y EN QUÉ VA ESA DISCUSIÓN**
 
 - This has resulted in a number of studies investigating phase transitions varying system's parameters \cite{Aldana2009}.
----?image=Figure_S10.png&position=right&size=30%
+---?image=Figure_S10.png&position=right&size=20% 60%
 
 ### Phase transition as a function of agents' velocity
 @div[left-65]
 @ul[brighten]
 
 - Observations on fish collective motion:
-  - Higher polarization ($\phi$) at higher swimming speeds ($v_0$).
-  - <span style="font-size:0.5em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
+  - Higher polarization ($\phi$) at higher swimming speeds ($v_0$). <span style="font-size:0.3em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
 
 - @color[#FFBB00](¿Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?)
 @ulend
