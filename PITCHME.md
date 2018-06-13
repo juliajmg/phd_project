@@ -2,7 +2,7 @@
 
 ## EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS
 
-@div[right-30]
+@div[left-50]
 
 - Julia Múgica Gallart
 - Thesis advisors:
@@ -13,9 +13,9 @@
 
 # INTRODUCTION
 
----?image=collective_motion.png&position=right&size=40%
-## Collective motion
-@div[left-65]
+---?image=collective_motion.png&position=right&size=30%
+## @color[#D13525](Collective motion)
+@div[left-60]
 @ul[brighten]
 - Similar individual units that **interact**:
   - Speed
