@@ -380,7 +380,7 @@ to perturbations.
 Note:
 - Kilobots are simple low-cost robots, designed by the Self-Organizing Systems Research Group at Harvard University, with the intention of building a robot with which collective behaviors algorithms could be tested. They are reasonable cheap (about 14 dollars each), small (around 3 cm of diameter) and scalable (you can handle all kilobots at once, in the sense of programming, powering them on and charging)
 
----
+---?image=Kilobot_description.png&position=right&size=50%
 #### Description
 @ul[]
 - Differential drive locomotion: Rotate at 45º/s and go forward 1cm/s.
