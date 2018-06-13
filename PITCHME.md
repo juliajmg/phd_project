@@ -16,9 +16,9 @@ Thesis directors:
 @div[left-50]
 ##  INTRODUCTION
 
----?image=collective_motion.png&position=right&size=35%
+---?image=collective_motion.png&position=right&size=33% 90%
 ## Collective motion
-@div[left-65]
+@div[left-64]
 @ul[brighten]
 - Similar individual units that **interact**:
   - Speed
