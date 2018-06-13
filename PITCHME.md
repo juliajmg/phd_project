@@ -380,18 +380,23 @@ to perturbations.
 Note:
 - Kilobots are simple low-cost robots, designed by the Self-Organizing Systems Research Group at Harvard University, with the intention of building a robot with which collective behaviors algorithms could be tested. They are reasonable cheap (about 14 dollars each), small (around 3 cm of diameter) and scalable (you can handle all kilobots at once, in the sense of programming, powering them on and charging)
 
----?image=Kilobot_description.png&position=right&size=50% 90%
+---?image=Kilobot_description.png&position=right&size=40% 90%
 #### Description
 @ul[]
+@div[left-50]
 - Differential drive locomotion: Rotate at 45º/s and go forward 1cm/s.
 
 - On-board computation power: ATmega 328p microcontroller as CPU, with 32KB of memory
 
 - Naearby-robots communication by infrared (IR): 10 cm radius.
+@divend
+@ulend
 
+@ul[]
+@div[right-50]
 - Nearby-robots distance sensing: IR intensity.
-
 - Display current state: RGB LED light.
+@divend
 @ulend
 Note:
 - They are aquipped with two independently-controllable vibrating motors to rotate to the left or right (at approximately 45º/s) and to go forward approximately 1cm/s. They have an infrared receiver and transmitter for close-range communication (of around 10 cm radius), and a RGB LED light emmiter to display information to the operator.
