@@ -247,7 +247,7 @@ Buscar rangos de velocidades en peces.
 ---?image=Vicsek_op.png&position=right&size=40%
 
 ### @color[#FFBB00](Numerical simulations of the Vicsek model)
-@ul[brighten]
+@ul[]
 @div[left-65]
 
 - <span style="font-size:0.6em">Computational optimization of the Vicsek model</span>
