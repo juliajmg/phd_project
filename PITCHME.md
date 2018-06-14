@@ -518,18 +518,14 @@ Note:
 the interaction rules of some kilobots will be modified so that leader-follower dynamics are fomented. Interaction rules with the potential to be varied are the number of neighbours a kilobot pays attention to, its preferred speed and relative position or the level of information it possesses, expressed in the tendency to move to a preferred direction. Also, the proportion of kilobots with different interaction rules will be varied to investigate possible adaptive strategies that facilitate cohesion, but at the same time grant spatial exploration and coordination of motion properties to the group.
 ---
 ### WORK PLAN
-<span style="font-size:0.5em">
+
 
 | Period                   | Activity                                                                                    
 | ------------------------ | ------------------------------------------------------------------------------------------------- |
-| Second year, 1-6 months  | - Modification and analysis of the Vicsek model to study phase transition with variable velocity. |
-|                          | Finish reach algorithm for kilobots, and implement variation of rules.                            |     
-|                          | - Adquisition of around 150 kilobots for experimentation.                                         |     
-| Second year, 6-12 months | Recording and image processing of kilobots behavior under different algorithms.                   |     
-|                          | Recording and image processing of groups of zebrafish on an experimental tank.                    |     
-| Third year, 1-6 months   | Analysis of kilobots results on leader-follower dynamics.                                         |     
-|                          | Comparison of fish experimental data with simulated data.                                         |     
-|              Third year 6-12 months            |        Results publications, thesis writing and disertation.                                                                                           |     
+| <span style="font-size:0.7em">Second year, 1-6 months</span>  | <span style="font-size:0.7em">1. Modification and analysis of the Vicsek model to study phase transition with variable velocity.  2.  Finish reach algorithm for kilobots, and implement variation of rules. 3. Adquisition of around 150 kilobots for experimentation. </span>                                        |     
+| <span style="font-size:0.7em">Second year, 6-12 months</span> | <span style="font-size:0.7em">1. Recording and image processing of kilobots behavior under different algorithms. 2. Recording and image processing of groups of zebrafish on an experimental tank. </span>                   |     
+|<span style="font-size:0.7em"> Third year, 1-6 months  </span> |<span style="font-size:0.7em">1.  Analysis of kilobots results on leader-follower dynamics. 2. Comparison of fish experimental data with simulated data.</span>                                         |     
+|<span style="font-size:0.7em">Third year 6-12 months </span>  |<span style="font-size:0.7em"> Results publications, thesis writing and disertation.</span>                                                                                          |     
 </span>
 ---
 
