@@ -358,7 +358,7 @@ Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human D
 * As a way of saving energy but still respond efficiently
 to perturbations.
 
----?image=kilobotswarm.jpg&position=right&size=50%
+---?image=kilobotswarm.jpg&position=right&size=45%
 
 ## @color[#FFBB00](Kilobots)
 @ul[brighten]
@@ -469,9 +469,9 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 
 - Efficient hypothesis testing.
 
----
+---?video=https://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4?dl=0
 ### Algorithm implementation in kilombo and kilobots
-VIDEOS DE ROBOTS CON ALGORITMOS, Y DIBUJO DE LO QUE FALTA.
+
 
 ---
 
