@@ -284,7 +284,6 @@ First, noise amplitude values were chosen for which both order and disorder stat
 
 @div[left-50]
 - Disorder to order phase transitions.
-
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
 @divend
 
@@ -311,17 +310,11 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
----
-
-- A rapid increase in polarization at critical velocity value: advantage for fish in predation risk avoidance.
-
+---?image=risk_avoidance.png&position=right&size=50%
 @div[left-50]
-
-![Video](https://www.youtube.com/embed/SIg5d_mi92k)
-@divend
-
-@div[right-50]
-SIMULACIÓN CON AUMENTO EN VEL.
+- A rapid increase in polarization at critical velocity value: advantage for fish in predation risk avoidance.
+- **Aquí trataré de incluir simulación de Vicsek en el aumento de velocidad crítico**
+@divend 
 Note:
 **FALTA: SIMULACIÓN DE PARTÍCULAS**
 The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
@@ -329,7 +322,7 @@ The relation between ordering and velocity in fish has been thought of as an ada
 Being able to rapidly increase group polarization by reaching a critical velocity value would be an advantaje for the group, specially in predation risk avoidance.
 
 Even in the simplest model, order is achieved by increasing the system velocity.
-
+![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 ---
 #### FUTURE WORK
 
@@ -492,7 +485,7 @@ VIDEOS DE ROBOTS CON ALGORITMOS, Y DIBUJO DE LO QUE FALTA.
 @divend
 
 @div[right-50]
-DIBUJO 
+DIBUJO
 @divend
 ---
 - Implement leader-follower dynamics:
