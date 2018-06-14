@@ -14,10 +14,10 @@ Thesis directors:
 ---?image=flocking_birds.jpg&position=right&size=50% 100%
 
 @div[left-50]
-##  INTRODUCTION
+##  @color[#FFBB00](INTRODUCTION)
 
 ---?image=collective_motion.png&position=right&size=36% 60%
-## Collective motion
+## @color[#FFBB00](Collective motion)
 @div[left-60]
 @ul[brighten]
 <span style="font-size:0.9em">
@@ -45,7 +45,7 @@ Note:
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
 ---?image=study_approaches-1.png&position=right&size=20% 60%
-### The study of collective motion
+### @color[#FFBB00](The study of collective motion)
 @ul[brighten]
 - Universality of the phenomenon.
 @div[left-70]
@@ -80,10 +80,10 @@ Note:
 Note:
 - The different ways in which individuals interact give flexibility to a group in decision-making and information transfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
 
-+++
-#### Variation in the rules of interaction
+---
+#### @color[#FFBB00](Variation in the rules of interaction)
 @ul[brighten]
-<span style="font-size:0.8em">
+<span style="font-size:1em">
 - @color[#FFBB00](Group variation)
 
   - Changes in the frequency and force of interactions.
@@ -119,13 +119,13 @@ These variations are relevant to understand which strategies groups can adopt to
 
 ---
 
-## GOALS
+## @color[#FFBB00](GOALS)
 @ul[brighten]
 - Study the impact of the variation in group and individual interaction-rules:
 
-    - Ordering
-    - Information transfer
-    - Decision-making
+    - @color[#FFBB00](Ordering)
+    - @color[#FFBB00](Information transfer)
+    - @color[#FFBB00](Decision-making)
 
 - Compare emergent behaviors with those observed in animal collectives with flocking behavior.
 @ulend
@@ -148,7 +148,7 @@ Note:
 
 ---
 
-# PRELIMINARY RESULTS
+# @color[#FFBB00](PRELIMINARY RESULTS)
 
 ---?image=Vicsek_dynamics.png&position=right&size=35%
 
@@ -173,7 +173,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 
 ---
 
-### Parameters:
+### @color[#FFBB00](Parameters:)
 
 
 - Density $\rho$: <span style="font-size:0.6em; color:#FFBB00">Number of particles $N$ in a volume $R^d$</span>.
@@ -192,7 +192,7 @@ The parameters of the model are the density of particles, meaning, the number of
 **ESTO NECESITA PRÁCTICA**
 ---
 
-## Phase transitions in the Vicsek model
+## @color[#FFBB00](Phase transitions in the Vicsek model)
 
 - First order vs. Second order phase transition as a function of $\eta$:
 
@@ -216,7 +216,7 @@ Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with large
 - This has resulted in a number of studies investigating phase transitions varying system's parameters \cite{Aldana2009}.
 ---?image=Figure_S10.png&position=right&size=20% 60%
 
-### Phase transition as a function of agents' velocity
+### @color[#FFBB00](Phase transition as a function of agents' velocity)
 @div[left-65]
 @ul[brighten]
 
@@ -247,9 +247,9 @@ Buscar rangos de velocidades en peces.
 
 ---?image=Vicsek_op.png&position=right&size=40%
 
-### Numerical simulations of the Vicsek model
+### @color[#FFBB00](Numerical simulations of the Vicsek model)
 @ul[brighten]
-@div[left-65]
+@div[left-60]
 
 - <span style="font-size:0.6em">Computational optimization of the Vicsek model</span>
   -  <span style="font-size:0.6em">System $L^2$ divided in boxes of size $R_{0}$ (Ginelli et al. 2016)</span>
@@ -280,11 +280,14 @@ First, noise amplitude values were chosen for which both order and disorder stat
 
 ---?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=35%
 
-### Changes in $\phi$, by changing $v_{0}$ and $\rho$
+### @color[#FFBB00](Changes in $\phi$, by changing $v_{0}$ and $\rho$)
 
 @div[left-50]
+@ul[]
 - Disorder to order phase transitions.
+
 - As $\eta$ is increased, the transition ocurrs at higher $v_{0}$ and $\rho$ values.
+@ulend
 @divend
 
 
@@ -297,7 +300,7 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
 ---?image=Phi_vs_v0_rho01a1_eta03a06_big.png&position=right&size=50%
 
-### Nature of velocity-induced phase transition
+### @color[#FFBB00](Nature of velocity-induced phase transition)
 
 @div[left-50]
 @ul[brighten]
@@ -311,11 +314,11 @@ Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
 ---?image=risk_avoidance.png&position=right&size=50%
-### Potential adaptive behavior
+### @color[#FFBB00](Potential adaptive behavior)
 @div[left-50]
 @ul[]
 - A rapid increase in polarization at critical velocity value:
-  - advantage for fish in predation risk avoidance.
+  - Advantage for fish in predation risk avoidance.
 **(Aquí trataré de incluir simulación de Vicsek en el aumento de velocidad crítico)**
 @ulend
 @divend
@@ -329,7 +332,7 @@ Even in the simplest model, order is achieved by increasing the system velocity.
 ![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 
 ---?image=zebrafish.png&position=right&size=50%
-#### FUTURE WORK
+#### @color[#FFBB00](FUTURE WORK)
 
 @div[left-50]
 @ul[brighten]
@@ -342,7 +345,7 @@ Note:
 Aquí podría mostrar un video.
 
 ---?image=variable_v0.png&position=right&size=50%
-#### Variable velocity within the system on the Vicsek model
+#### @color[#FFBB00](Variable velocity within the system on the Vicsek model)
 @ul[brighten]
 @div[left-70]
 - Increase $v_0$ to critical value of only a fraction of particles
@@ -394,7 +397,7 @@ Note:
 - They have a ATmega 328p microcontroller as a brain with 32KB of memory, and they can exange up to 9 bytes of information and estimate distance to nearby-robots depending on infrarred intensity.
 
 ---?image=Overhead_controller.png&position=right&size=50%
-### Experimental setup
+### @color[#FFBB00](Overhead controller and software)
 @div[left-40]
 
 ![KiloGUI](KiloGUI.png)
@@ -407,7 +410,7 @@ The experimental setup is as shown: The executable is loaded from a graphical in
 Kilobots move in a smooth, flat and glossy surface: concretely a dry erase white board.
 ---
 
-#### Kilobots have been used to study:
+#### @color[#FFBB00](Kilobots have been used to study):
 @div[left-50]
 1. Collective decision-making
 2. Space exploration and efficiency in information transfer
@@ -415,8 +418,6 @@ Kilobots move in a smooth, flat and glossy surface: concretely a dry erase white
 @divend
 @div[right-50]
 ![kilobot_studies](decision_making.png)
-Note:
-
 
 ---
 
@@ -429,7 +430,7 @@ Note:
 - Contribute with collective algorithms with which robots swarms can efficiently fulfill complex tasks.
 
 ---?image=kilobots_experimental.jpg&position=right&size=50%
-### Experimental setup
+### @color[#FFBB00](Experimental setup)
 
 - 10 kilobots
 - Smooth dry-erase whiteboard
@@ -439,7 +440,7 @@ Note:
 
 
 ---?image=reach_algorithm.png&position=right&size=50%
-### REACH ALGORITHM
+### @color[#FFBB00](REACH ALGORITHM)
 @ul[]
 @div[left-50]
 - Localization only by distance sensing
@@ -460,7 +461,7 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 
 ---?image=random_walk.png&position=right&size=50%
 
-#### RANDOM-WALK-BASED SEARCH
+#### @color[#FFBB00](RANDOM-WALK-BASED SEARCH)
 @ul[brighten]
 @div[left-50]
 - First stage of implementation
@@ -479,24 +480,24 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 - Efficient hypothesis testing.
 
 ---
-### Algorithm implementation in kilombo and kilobots
+### @color[#FFBB00](Algorithm implementation in kilombo and kilobots)
 http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 
 Falta video de kilobots.
 
 ---?image=kilobot_future.png&position=right&size=30%
 
-### FUTURE WORK
+### @color[#FFBB00](FUTURE WORK)
 @div[left-70]
 @ul[]
-- Mantain minimum distances among neighoring kilobots while reaching the "leader"
-- Implement a distance-compensation mechanism for followers to follow the "leader" while moving.
-- Compare reach-target efficiency of random-walks vs. leader-following.
+- Mantain @color[#FFBB00](minimum distances) among neighoring kilobots while reaching the "leader"
+- Implement a @color[#FFBB00](distance-compensation mechanism) for followers to follow the "leader" while moving.
+- Compare @color[#FFBB00](reach-target efficiency) of random-walks vs. leader-following.
 @ulend
 @divend
 
 ---
-- @color[](Implement leader-follower dynamics:)
+- @color[#FFBB00](Implement leader-follower dynamics:)
 @ul[]
 @div[left-50]
   - Familiarity.
@@ -509,7 +510,7 @@ Falta video de kilobots.
 - Tendency to move to specific direction.
 @divend
 
-- @color[](Information transfer and decision-making effiency on the direction of motion.)
+- @color[#FFBB00](Information transfer and decision-making effiency on the direction of motion.)
   - Record and obtain trajectories.
   - Communication network
   - Hierarchical leadership network
@@ -517,10 +518,10 @@ Falta video de kilobots.
 Note:
 the interaction rules of some kilobots will be modified so that leader-follower dynamics are fomented. Interaction rules with the potential to be varied are the number of neighbours a kilobot pays attention to, its preferred speed and relative position or the level of information it possesses, expressed in the tendency to move to a preferred direction. Also, the proportion of kilobots with different interaction rules will be varied to investigate possible adaptive strategies that facilitate cohesion, but at the same time grant spatial exploration and coordination of motion properties to the group.
 ---
-### WORK PLAN
+### @color[#FFBB00](WORK PLAN)
 
 
-| Period                   | Activity                                                                                    
+| @color[#FFBB00](Period)                  | @color[#FFBB00](Activity)                                                                                   
 | ------------------------ | ------------------------------------------------------------------------------------------------- |
 | <span style="font-size:0.5em">Second year, 1-6 months</span>  | <span style="font-size:0.5em">1. Modification and analysis of the Vicsek model to study phase transition with variable velocity.  2.  Finish reach algorithm for kilobots, and implement variation of rules. 3. Adquisition of around 150 kilobots for experimentation. </span>                                        |     
 | <span style="font-size:0.5em">Second year, 6-12 months</span> | <span style="font-size:0.5em">1. Recording and image processing of kilobots behavior under different algorithms. 2. Recording and image processing of groups of zebrafish on an experimental tank. </span>                   |     
