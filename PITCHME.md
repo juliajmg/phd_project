@@ -470,27 +470,49 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 
 ### @color[#FFBB00](KILOMBO)
 
+- Jansson et al. 2016
+
 - C-based kilobots simulator.
+
 - Efficient hypothesis testing.
 
 ---
-
+### Algorithm implementation in kilombo and kilobots
 VIDEOS DE ROBOTS CON ALGORITMOS, Y DIBUJO DE LO QUE FALTA.
 
 ---
 
 ### FUTURE WORK
 
-**Short-term**
 - Mantain minimum distances among neighoring kilobots while reaching the "leader"
 - Implement a distance-compensation mechanism for followers to follow the "leader" while moving.
+@ul[]
+- Compare reach-target efficiency of random-walks vs. leader-following.
+@ulend
+---
+- Implement leader-follower dynamics:
+@div[left-50]
+  - Familiarity.
+  - Information on food sources.
+  - Predation-risk
+@divend
+@div[right-50]
+@ul[]
+- Number of neighbors a kilobot pays attention to
+- Preferred relative position.
+- Tendency to move to a preffered direction
+@divend
 
-- First study: compare reach-target efficiency by
+- Compare information transfer and decision-making effiency on the direction of motion.
+  - Record and obtain trajectories.
+  - Communication network
+  - Hierarchical leadership network
+@ulend
+Note:
+the interaction rules of some kilobots will be modified so that leader-follower dynamics are fomented. Interaction rules with the potential to be varied are the number of neighbours a kilobot pays attention to, its preferred speed and relative position or the level of information it possesses, expressed in the tendency to move to a preferred direction. Also, the proportion of kilobots with different interaction rules will be varied to investigate possible adaptive strategies that facilitate cohesion, but at the same time grant spatial exploration and coordination of motion properties to the group.
+---
+### WORK CALENDAR
 
-
-Mid-term
-
-- Implement leader-follower dynamics and compare information transfer and decision-making effiency on the direction of motion for different dynamics.
 
 ---
 ### REFERENCES
