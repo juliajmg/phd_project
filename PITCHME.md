@@ -1,13 +1,13 @@
 ---?image=flocking_1.jpg&opacity=40
 ## @color[#FFBB00](EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS)
 @ul[brighten]
-@color[#FFBB00](- **Julia Múgica Gallart**)
+@color[#FFBB00](**Julia Múgica Gallart**)
 
-- @color[#FFBB00](Thesis directors:)
+- @color[#FFBB00](**Thesis directors:**)
 
-- @color[#FFBB00](Dr. Romulado Pastor-Satorras)
+  - @color[#FFBB00](**Dr. Romulado Pastor-Satorras**)
 
-- @color[#FFBB00](Dra. M. Carmen Miguel López)
+  - @color[#FFBB00](**Dra. M. Carmen Miguel López**)
 @ulend
 
 ---?image=flocking_birds.jpg&position=right&size=50% 100%
@@ -248,7 +248,7 @@ Buscar rangos de velocidades en peces.
 
 ### @color[#FFBB00](Numerical simulations of the Vicsek model)
 @ul[brighten]
-@div[left-60]
+@div[left-65]
 
 - <span style="font-size:0.6em">Computational optimization of the Vicsek model</span>
   -  <span style="font-size:0.6em">System $L^2$ divided in boxes of size $R_{0}$ (Ginelli et al. 2016)</span>
