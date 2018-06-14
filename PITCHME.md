@@ -1,13 +1,13 @@
 ---?image=flocking_1.jpg&opacity=40
 ## @color[#FFBB00](EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS)
 @ul[brighten]
-- @color[#FB6542](**Julia Múgica Gallart**)
+@color[#FFBB00](- **Julia Múgica Gallart**)
 
-- @color[#FB6542](Thesis directors:)
+- @color[#FFBB00](Thesis directors:)
 
-- @color[#FB6542](Dr. Romulado Pastor-Satorras)
+- @color[#FFBB00](Dr. Romulado Pastor-Satorras)
 
-- @color[#FB6542](Dra. M. Carmen Miguel López)
+- @color[#FFBB00](Dra. M. Carmen Miguel López)
 @ulend
 
 ---?image=flocking_birds.jpg&position=right&size=50% 100%
