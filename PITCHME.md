@@ -469,8 +469,10 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 
 - Efficient hypothesis testing.
 
----?video=https://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
+---
+### Algorithm implementation in kilombo and kilobots
 
+![kilombo](https://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4)
 ---
 
 ### FUTURE WORK
