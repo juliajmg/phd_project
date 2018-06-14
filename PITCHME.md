@@ -310,11 +310,14 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
----?image=risk_avoidance.png&position=right&size=50%
-@div[left-50]
-- A rapid increase in polarization at critical velocity value: advantage for fish in predation risk avoidance.
+---?image=risk_avoidance.png&position=left&size=50%
+@div[right-50]
+@ul[]
+- A rapid increase in polarization at critical velocity value:
+  - advantage for fish in predation risk avoidance.
 - **Aquí trataré de incluir simulación de Vicsek en el aumento de velocidad crítico**
-@divend 
+@ulend
+@divend
 Note:
 **FALTA: SIMULACIÓN DE PARTÍCULAS**
 The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
@@ -323,26 +326,21 @@ Being able to rapidly increase group polarization by reaching a critical velocit
 
 Even in the simplest model, order is achieved by increasing the system velocity.
 ![Video](https://www.youtube.com/embed/SIg5d_mi92k)
----
+
+---?image=zebrafish.png&position=right&size=50%
 #### FUTURE WORK
 
 @div[left-50]
 @ul[brighten]
 - Study the velocity induced phase transition in fish
   - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
-
-!![igb_logo](igb_logo.png)
 @ulend
 @divend
 
-@div[right-50]
-VIDEO O IMAGEN DE PECES ZEBRA
-@divend
-
-+++
+---
 @div[left-50]
 @ul[brighten]
-- Explore the effect of increasing the velocity of only a fraction of particles on the disorder-order phase-transition.
+- Increase velocity of only a fraction of particles on the disorder-order phase-transition.
 
   - ¿Adaptive strategy in natural systems?
 
@@ -354,7 +352,6 @@ DIBUJO DE PARTICULAS, UNAS CON MAS VELOCIDAD QUE OTRAS.
 @divend
 Note:
 **FALTA
-FOTO DE ZEBRAFISH
 Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.**
 * As a way of saving energy but still respond efficiently
 to perturbations.
@@ -409,12 +406,13 @@ Kilobots move in a smooth, flat and glossy surface: concretely a dry erase white
 ---
 
 #### Kilobots have been used to study:
-
+@div[left-50]
 1. Collective decision-making
 2. Space exploration and efficiency in information transfer
 3. Collective transport of objects.
-
-FOTOS Y VIDEOS DE LOS ESTUDIOS: Valentini2016, Dimidov2016 Rubenstein2013
+@divend
+@div[right-50]
+![kilobot_studies](decision_making.png)
 Note:
 
 
