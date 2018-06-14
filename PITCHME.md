@@ -344,9 +344,11 @@ Aquí podría mostrar un video.
 ---?image=variable_v0.png&position=right&size=50%
 #### Variable velocity within the system on the Vicsek model
 @ul[brighten]
+@div[left-70]
 - Increase $v_0$ to critical value of only a fraction of particles
 - ¿ A disorder-to-order phase transition is still observed?
 - ¿Adaptive strategy in natural systems?
+@divend
 @ulend
 
 
