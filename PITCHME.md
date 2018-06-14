@@ -310,12 +310,13 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
----?image=risk_avoidance.png&position=left&size=50%
-@div[right-50]
+---?image=risk_avoidance.png&position=right&size=50%
+### Potential adaptive behavior
+@div[left-50]
 @ul[]
 - A rapid increase in polarization at critical velocity value:
   - advantage for fish in predation risk avoidance.
-- **Aquí trataré de incluir simulación de Vicsek en el aumento de velocidad crítico**
+**(Aquí trataré de incluir simulación de Vicsek en el aumento de velocidad crítico)**
 @ulend
 @divend
 Note:
@@ -332,24 +333,23 @@ Even in the simplest model, order is achieved by increasing the system velocity.
 
 @div[left-50]
 @ul[brighten]
-- Study the velocity induced phase transition in fish
-  - Experimental data of zebrafish (*Danio rerio*): swarming and schooling behaviors.
+- Velocity induced phase transition in fish
+  - Experimental data of zebrafish (*Danio rerio*)
+  - Recording and image processing of fish reacting to predation stimulus.
 @ulend
 @divend
+Note:
+Aquí podría mostrar un video.
 
----
-@div[left-50]
+---?image=variable_v0.png&position=right&size=50%
+#### Variable velocity within the system on the Vicsek model
 @ul[brighten]
-- Increase velocity of only a fraction of particles on the disorder-order phase-transition.
-
-  - ¿Adaptive strategy in natural systems?
-
+- Increase $v_0$ to critical value of only a fraction of particles
+- ¿ A disorder-to-order phase transition is still observed?
+- ¿Adaptive strategy in natural systems?
 @ulend
-@divend
 
-@div[right-50]
-DIBUJO DE PARTICULAS, UNAS CON MAS VELOCIDAD QUE OTRAS.
-@divend
+
 Note:
 **FALTA
 Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.**
