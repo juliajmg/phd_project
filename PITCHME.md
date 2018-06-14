@@ -428,8 +428,17 @@ Note:
 
 - Contribute with collective algorithms with which robots swarms can efficiently fulfill complex tasks.
 
----?image=reach_algorithm.png&position=right&size=50%
+---?image=kilobots_experimental.jpg&position=right&size=50%
+### Experimental setup
 
+- 10 kilobots
+- Smooth dry-erase whiteboard
+- Overhead controller
+- Charger
+- Kilobot controller software
+
+
+---?image=reach_algorithm.png&position=right&size=50%
 ### REACH ALGORITHM
 @ul[]
 @div[left-50]
@@ -471,11 +480,14 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 
 ---
 ### Algorithm implementation in kilombo and kilobots
-![kilombo](http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4)
----
+http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
+
+Falta video de kilobots.
+
+---?image=kilobot_future.png&position=right&size=30%
 
 ### FUTURE WORK
-@div[left-50]
+@div[left-70]
 @ul[]
 - Mantain minimum distances among neighoring kilobots while reaching the "leader"
 - Implement a distance-compensation mechanism for followers to follow the "leader" while moving.
@@ -483,24 +495,21 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 @ulend
 @divend
 
-@div[right-50]
-DIBUJO
-@divend
 ---
-- Implement leader-follower dynamics:
+- @color[](Implement leader-follower dynamics:)
 @ul[]
 @div[left-50]
   - Familiarity.
   - Information on food sources.
-  - Predation-risk
+  - Predation-risk.
 @divend
 @div[right-50]
-- Number of neighbors
+- Number of neighbors.
 - Preferred relative position.
-- Tendency to move to specific direction
+- Tendency to move to specific direction.
 @divend
 
-- Information transfer and decision-making effiency on the direction of motion.
+- @color[](Information transfer and decision-making effiency on the direction of motion.)
   - Record and obtain trajectories.
   - Communication network
   - Hierarchical leadership network
@@ -508,10 +517,22 @@ DIBUJO
 Note:
 the interaction rules of some kilobots will be modified so that leader-follower dynamics are fomented. Interaction rules with the potential to be varied are the number of neighbours a kilobot pays attention to, its preferred speed and relative position or the level of information it possesses, expressed in the tendency to move to a preferred direction. Also, the proportion of kilobots with different interaction rules will be varied to investigate possible adaptive strategies that facilitate cohesion, but at the same time grant spatial exploration and coordination of motion properties to the group.
 ---
-### WORK CALENDAR
-
+### WORK PLAN
+| Period                   | Activity                                                                                          
+| ------------------------ | ------------------------------------------------------------------------------------------------- |
+| Second year, 1-6 months  | - Modification and analysis of the Vicsek model to study phase transition with variable velocity. |
+|                          | Finish reach algorithm for kilobots, and implement variation of rules.                            |     
+|                          | - Adquisition of around 150 kilobots for experimentation.                                         |     
+| Second year, 6-12 months | Recording and image processing of kilobots behavior under different algorithms.                   |     
+|                          | Recording and image processing of groups of zebrafish on an experimental tank.                    |     
+| Third year, 1-6 months   | Analysis of kilobots results on leader-follower dynamics.                                         |     
+|                          | Comparison of fish experimental data with simulated data.                                         |     
+|              Third year 6-12 months            |        Results publications, thesis writing and disertation.                                                                                           |     
 
 ---
+
+
+
 ### REFERENCES
 
 ---
