@@ -483,27 +483,32 @@ VIDEOS DE ROBOTS CON ALGORITMOS, Y DIBUJO DE LO QUE FALTA.
 ---
 
 ### FUTURE WORK
-
+@div[left-50]
+@ul[]
 - Mantain minimum distances among neighoring kilobots while reaching the "leader"
 - Implement a distance-compensation mechanism for followers to follow the "leader" while moving.
-@ul[]
 - Compare reach-target efficiency of random-walks vs. leader-following.
 @ulend
+@divend
+
+@div[right-50]
+DIBUJO 
+@divend
 ---
 - Implement leader-follower dynamics:
+@ul[]
 @div[left-50]
   - Familiarity.
   - Information on food sources.
   - Predation-risk
 @divend
 @div[right-50]
-@ul[]
-- Number of neighbors a kilobot pays attention to
+- Number of neighbors
 - Preferred relative position.
-- Tendency to move to a preffered direction
+- Tendency to move to specific direction
 @divend
 
-- Compare information transfer and decision-making effiency on the direction of motion.
+- Information transfer and decision-making effiency on the direction of motion.
   - Record and obtain trajectories.
   - Communication network
   - Hierarchical leadership network
@@ -517,4 +522,6 @@ the interaction rules of some kilobots will be modified so that leader-follower 
 ---
 ### REFERENCES
 
-bla bla bla
+---
+
+# THANK YOU
