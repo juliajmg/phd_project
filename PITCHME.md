@@ -442,7 +442,7 @@ Note:
 ### REACH ALGORITHM
 @ul[]
 @div[left-50]
-- Lozalization only by distance sensing
+- Localization only by distance sensing
 - First test algorithm
 
 - Purpose: For kilobots to reach a "leader", no matter their initial configuration.
@@ -518,7 +518,9 @@ Note:
 the interaction rules of some kilobots will be modified so that leader-follower dynamics are fomented. Interaction rules with the potential to be varied are the number of neighbours a kilobot pays attention to, its preferred speed and relative position or the level of information it possesses, expressed in the tendency to move to a preferred direction. Also, the proportion of kilobots with different interaction rules will be varied to investigate possible adaptive strategies that facilitate cohesion, but at the same time grant spatial exploration and coordination of motion properties to the group.
 ---
 ### WORK PLAN
-| Period                   | Activity                                                                                          
+<span style="font-size:0.5em">
+
+| Period                   | Activity                                                                                    
 | ------------------------ | ------------------------------------------------------------------------------------------------- |
 | Second year, 1-6 months  | - Modification and analysis of the Vicsek model to study phase transition with variable velocity. |
 |                          | Finish reach algorithm for kilobots, and implement variation of rules.                            |     
@@ -528,7 +530,7 @@ the interaction rules of some kilobots will be modified so that leader-follower 
 | Third year, 1-6 months   | Analysis of kilobots results on leader-follower dynamics.                                         |     
 |                          | Comparison of fish experimental data with simulated data.                                         |     
 |              Third year 6-12 months            |        Results publications, thesis writing and disertation.                                                                                           |     
-
+</span>
 ---
 
 
