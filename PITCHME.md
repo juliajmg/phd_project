@@ -1,7 +1,7 @@
 ---?image=flocking_1.jpg&opacity=40
 ## @color[#FFBB00](EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS)
 @ul[brighten]
-@color[#FFBB00](**Julia Múgica Gallart**)
+- @color[#FFBB00](**Julia Múgica Gallart**)
 
 - @color[#FFBB00](**Thesis directors:**)
 
@@ -43,61 +43,8 @@ Note:
 
 - Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
 
----?image=study_approaches-1.png&position=right&size=20% 60%
-### @color[#FFBB00](The study of collective motion)
-@ul[brighten]
-- Universality of the phenomenon.
-@div[left-70]
-- @color[#FFBB00](Theoretical approaches)
-  - Models of self-proppelled particles (SPP).
-  - Variation of the rules of interaction.
-
-- @color[#FFBB00](Experimental approaches)
-  - High precision data of animals on the move.
-
-@divend
-@ulend
-Note:
-- The underlying fundamental principles of collective motion are usually generalized, and therefore nearly independent of the specific details relative to the behavior of individual components, so they are transferable between systems of different nature. This characteristic is known as universality, and coupled with the many technological applications inspired by collective models, has attracted the attention of statistical physicists and theoretical biologists, as well as experimental scientists.
-
-- In theoretical approximations, the mechanisms by which local interactions between agents generate emergent global patterns is investigated with models of self-propelled particles with interaction rules that can be varied.
-
-- In experimental approaches, the advances in tracking and image technologies have enabled to obtain high precision data of animals on the move and make and accurate analysis of individual behavior.
-
-- With this data, it is possible to compare the observations with simulated data results, and infer the underlying mechanisms of communication in collective motion events.
-
-
----
-## @color[#FFBB00](Rules of interaction)
-@ul[brighten]
-- Flexibility in collective decision-making and information transfer processes.)
-
-- Source of diversity of structures and dynamics observed in nature.
-
-- Individual and global variations.
-@ulend
-Note:
 - The different ways in which individuals interact give flexibility to a group in decision-making and information transfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
 
----
-#### @color[#FFBB00](Variation in the rules of interaction)
-@ul[brighten]
-<span style="font-size:1em">
-- @color[#FFBB00](Group variation)
-
-  - Changes in the frequency and force of interactions.
-  - External perturbations or internal states.
-  - Group's capacity to exhibit multiple stable collective states.
-
-- @color[#FFBB00](Individual variation)
-
-  - Difference in the rules of interaction within a group.
-  - Internal states, body-size, information or experience disparities.
-  - Emergence of leader-follower dynamics.
-</span>
-@ulend
-
-Note:
 Global variations
 
 - Group variation refers to changes in the frequency and the force by which individuals interact (By force i mean individuals' probability of responding to the movements of their neighbors), without changing the rules of interaction *per se*.
@@ -116,6 +63,29 @@ Individual variations
 
 These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.
 
+---?image=study_approaches-1.png&position=right&size=20% 60%
+### @color[#FFBB00](The study of collective motion)
+@ul[brighten]
+- Universality of the phenomenon.
+@div[left-70]
+- @color[#FFBB00](Theoretical approaches)
+  - Models of self-proppelled particles (SPP).
+  - Variation of the @color[#FFBB00](rules of interaction.)
+
+- @color[#FFBB00](Experimental approaches)
+  - High precision data of animals on the move.
+
+@divend
+@ulend
+Note:
+- The underlying fundamental principles of collective motion are usually generalized, and therefore nearly independent of the specific details relative to the behavior of individual components, so they are transferable between systems of different nature. This characteristic is known as universality, and coupled with the many technological applications inspired by collective models, has attracted the attention of statistical physicists and theoretical biologists, as well as experimental scientists.
+
+- In theoretical approximations, the mechanisms by which local interactions between agents generate emergent global patterns is investigated with models of self-propelled particles with interaction rules that can be varied.
+
+- In experimental approaches, the advances in tracking and image technologies have enabled to obtain high precision data of animals on the move and make and accurate analysis of individual behavior.
+
+- With this data, it is possible to compare the observations with simulated data results, and infer the underlying mechanisms of communication in collective motion events.
+
 ---
 
 ## @color[#FFBB00](GOALS)
@@ -129,40 +99,25 @@ These variations are relevant to understand which strategies groups can adopt to
 - Compare emergent behaviors with those observed in animal collectives with flocking behavior.
 @ulend
 
-
----
-#### SPECIFIC GOALS
-
-- @color[#FFBB00](Variation in agents' velocity.)
-  - Impact on the ordering of the system.
-  - Numeric simulations of SPPs and experimental fish data.
-
-- @color[#FFBB00](Leader-follower relationships.)
-  - Information transfer and collective decision-making
-  - Different social and environmental contexts.
-  - Swarms of mini-robots.
-
-Note:
-- For this purpose, we are currently working with experimental data with swarms of interacting autonomous mini-robots to examine leader-follower dynamics, and with numeric simulations using simple models of self-propelled particles (SPP) to examine phase transitions when particles velocity is increased.
-
 ---
 
 # @color[#FFBB00](PRELIMINARY RESULTS)
 
 ---?image=Vicsek_dynamics.png&position=right&size=35%
 
-## @color[#FFBB00](Vicsek model)
+## @color[#FFBB00](Vicsek model) Vicsek et al. (1995).  
 
 - Model of self-propelled particles (SPP).  
 
-- Vicsek et al. (1995).  
+- Update position:
+`$$ \vec{x_{i}}(t + \Delta t) = \vec{x_{i}(t)} + \vec{v_{i}}(t)\Delta t $$`
 
-- Integrates natural perturbations in   
-the direction of motion.  
+- Update orientation:
+`$$ \theta(t + \Delta t) = \langle\theta(t) \rangle_{R_0} + \xi_{i}(t) $$`
+
 
 
 Note:
-
 We chose the Vicsek model for our numeric simulations to investigate changes in the ordering of the system as a function of particles' velocity.
 
 The Vicsek model is the first model designed to quantitatively interpret flocking behaviors. It represents the simplest model displaying a transition to collective motion similar to
@@ -190,6 +145,21 @@ Note:
 The parameters of the model are the density of particles, meaning, the number of particles N in a volume. The velocity v_0, the noise amplitude and the order parámeter phi.
 **ESTO NECESITA PRÁCTICA**
 ---
+## @color[#FFBB00](Phase transitions in the Vicsek model)
+
+@div[left-50]
+- As a function of \eta
+
+- As a function of \rho
+
+$$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
+@divend
+
+@div[right-50]
+![Vicsek1995](phi_vs_eta_Nvariable.png)
+@divend
+---
+
 
 ## @color[#FFBB00](Phase transitions in the Vicsek model)
 
