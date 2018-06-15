@@ -148,16 +148,18 @@ The parameters of the model are the density of particles, meaning, the number of
 ## @color[#FFBB00](Phase transitions in the Vicsek model)
 
 @div[left-50]
-- As a function of \eta
 
-- As a function of \rho
-
-$$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
+- As a function of $\eta$
+- As a function of $\rho$
 @divend
 
 @div[right-50]
 ![Vicsek1995](phi_vs_eta_Nvariable.png)
 @divend
+
+$$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
+
+
 ---
 
 
