@@ -131,7 +131,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 @ul[brighten]
 
 - Observations on @color[#FFBB00](fish):
-  - <span style="font-size:0.8em>Higher polarization ($\phi$) at higher swimming speeds ($v_0$). </span> <span style="font-size:0.5em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
+  - <span style="font-size:0.8em">Higher polarization ($\phi$) at higher swimming speeds ($v_0$). </span> <span style="font-size:0.5em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
 
 - @color[#FFBB00](Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?)
 @ulend
