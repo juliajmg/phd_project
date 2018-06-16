@@ -123,14 +123,14 @@ $$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
 
 ---?image=Figure_S10.png&position=right&size=20% 60%
 
-### @color[#FFBB00](Phase transition as a function of agents' velocity)
+### @color[#FFBB00](Phase transition as a function of velocity)
 @div[left-65]
 @ul[brighten]
 
 - Observations on fish collective motion:
-  - Higher polarization ($\phi$) at higher swimming speeds ($v_0$). <span style="font-size:0.3em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
+  - Higher polarization ($\phi$) at higher swimming speeds ($v_0$). <span style="font-size:0.5em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
 
-- @color[#FFBB00](¿Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?)
+- @color[#FFBB00](Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?)
 @ulend
 @divend
 
@@ -138,7 +138,7 @@ $$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
 Note:
 Nevertheless, to our knowledge there is very few literature related to the model's dependence on particles velocity, so we wanted to fill this gap by focusing on the effect of increasing $v_{0}$ on the ordering of the system.
 
-The occurrence of a velocity dependent phase transition has been detected in various fish species that show an increase in group's average polarization when individuals increase their swimming speed \cite{Gautrais2012}  \cite{Tunstrom2013}  \cite{Rieucau2014} (i.e. they exhibit disorder to order phase transitions). This phenomena has been analyzed in a wide group-size range (from 10 to 60,000 individuals), and in field and laboratory settings using recording and tracking technologies to obtain fish positions and velocities over periods of time.
+The occurrence of a velocity dependent phase transition has been detected in various fish species that show an increase in group's average polarization when individuals increase their swimming speed \cite{Gautrais2012}  \cite{Tunstrom2013}  \cite{Rieucau2014} (i.e. they exhibit disorder to order phase transitions). This phenomena has been analyzed in a wide group-size range (from 10 to 60,000 individuals), and in field and laboratory settings.
 
 Here, we want to prove if it is possible to reproduce the velocity-dependent disorder to order phase transition in fish collectives in a model as simple as the Vicsek model.
 
@@ -152,32 +152,17 @@ Here, we want to prove if it is possible to reproduce the velocity-dependent dis
 Buscar rangos de velocidades en peces.
 
 
----?image=Vicsek_op.png&position=right&size=40%
-
-### @color[#FFBB00](Numerical simulations of the Vicsek model)
-@ul[]
-@div[left-65]
-
-- <span style="font-size:0.6em">Computational optimization of the Vicsek model</span>
-  -  <span style="font-size:0.6em">System $L^2$ divided in boxes of size $R_{0}$ (Ginelli et al. 2016)</span>
-  - <span style="font-size:0.6em">Sum particles' orientation for each box, and then update their positions.</span>
-- <span style="font-size:0.6em">Changes in $\phi$ as $v_0$ is increased</span>.
-    - <span style="font-size:0.5em">N = 10,000</span>
-    - <span style="font-size:0.5em">Time = 100,000</span>
-    - <span style="font-size:0.5em">$\rho$ from 0.1 to 2</span>
-@divend
-@ulend
-Note:
-In our simulations, we implemented an optimized version of the Vicsek model that divides the system $L^2$ in boxes of size $R_{0} = 1$, and each particle is assigned to a given box. This way, to update the position of particle $i$, we only need to consider the particles of the nine neighboring boxes \cite{Ginelli2016}. In addition, our version of the system calculates first the sum of particles' orientation for each box, and later updates their positions.
-
-**FALTA: ENTENDER BIEN LA OPTIMIZACIÓN, CAMBIAR PUNTOS EN SLIDE**
-
 ---?image=eta_vs_phi_v00.05a10.png&position=right&size=50%
 
 ### @color[#FFBB00](To fix $\eta$)
 @div[left-50]
 @ul[brighten]
+
+
 - Values of $\eta$ where disorder and order states are observed
+- <span style="font-size:0.5em">N = 10,000</span>
+- <span style="font-size:0.5em">Time = 100,000</span>
+- <span style="font-size:0.5em">$\rho$ = 2 </span>
 
 - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 @ulend
@@ -221,29 +206,21 @@ Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
 ---?image=risk_avoidance.png&position=right&size=50%
-### @color[#FFBB00](Potential adaptive behavior)
+### @color[#FFBB00](Potential adaptive behavior in fish)
 @div[left-50]
 @ul[]
 - A rapid increase in polarization at critical velocity value:
   - Advantage for fish in predation risk avoidance.
-**(Aquí trataré de incluir simulación de Vicsek en el aumento de velocidad crítico)**
+
 @ulend
 @divend
-Note:
-**FALTA: SIMULACIÓN DE PARTÍCULAS**
-The relation between ordering and velocity in fish has been thought of as an adaptive trait to collectively respond to changing environmental conditions.
-
-Being able to rapidly increase group polarization by reaching a critical velocity value would be an advantaje for the group, specially in predation risk avoidance.
-
-Even in the simplest model, order is achieved by increasing the system velocity.
-![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 
 ---?image=zebrafish.png&position=right&size=50%
 #### @color[#FFBB00](FUTURE WORK)
 
 @div[left-50]
 @ul[brighten]
-- Velocity induced phase transition in fish
+- @color[#FFBB00](Velocity induced phase transition in fish)
   - Experimental data of zebrafish (*Danio rerio*)
   - Recording and image processing of fish reacting to predation stimulus.
 @ulend
@@ -262,25 +239,17 @@ Aquí podría mostrar un video.
 @ulend
 
 
-Note:
-**FALTA
-Poner logo de Research Group in Recreational Fisheries, Fish Ecology and Human Dimensions at the Leibniz-Institute of Freshwater Ecology and Inland Fisheries, or as a collaboration with the Research Group on Adaptive Behaviour and Interaction of the University of Barcelona.**
-* As a way of saving energy but still respond efficiently
-to perturbations.
-
 ---?image=kilobotswarm.jpg&position=right&size=45%
 
 ## @color[#FFBB00](Kilobots)
 @ul[brighten]
 - Designed as swarm robots:
-  - Simple
-  - Low-cost ($14)
-  - Small (~3cm of diameter)
-  - Scalable
+  - Simple.
+  - Low-cost.
+  - Small (~3cm of diameter).
+  - Scalable.
+- <span style="font-size:0.5em">Collective decision-making, space exploration, collective transport of objects.</span>
 @ulend
-
-Note:
-- Kilobots are simple low-cost robots, designed by the Self-Organizing Systems Research Group at Harvard University, with the intention of building a robot with which collective behaviors algorithms could be tested. They are reasonable cheap (about 14 dollars each), small (around 3 cm of diameter) and scalable (you can handle all kilobots at once, in the sense of programming, powering them on and charging)
 
 ---?image=Kilobot_description.png&position=right&size=40% 90%
 #### Description
@@ -300,8 +269,7 @@ Note:
 @divend
 @ulend
 Note:
-- They are aquipped with two independently-controllable vibrating motors to rotate to the left or right (at approximately 45º/s) and to go forward approximately 1cm/s. They have an infrared receiver and transmitter for close-range communication (of around 10 cm radius), and a RGB LED light emmiter to display information to the operator.
-- They have a ATmega 328p microcontroller as a brain with 32KB of memory, and they can exange up to 9 bytes of information and estimate distance to nearby-robots depending on infrarred intensity.
+
 
 ---?image=Overhead_controller.png&position=right&size=50%
 ### @color[#FFBB00](Overhead controller and software)
@@ -310,33 +278,19 @@ Note:
 ![KiloGUI](KiloGUI.png)
 @divend
 
-Note:
-The implementation of behavioral algorithms is done in C-programming language and they use a kilobot-specific library to control basic functions.
-The experimental setup is as shown: The executable is loaded from a graphical interface to an oberhead controller, that sends the programm via infrarred to all kilobots at once.
-
-Kilobots move in a smooth, flat and glossy surface: concretely a dry erase white board.
----
-
-#### @color[#FFBB00](Kilobots have been used to study):
-@div[left-50]
-1. Collective decision-making
-2. Space exploration and efficiency in information transfer
-3. Collective transport of objects.
-@divend
-@div[right-50]
-![kilobot_studies](decision_making.png)
-
 ---
 
 ### @color[#FFBB00](GOALS)
 
-- Implement and vary collective motion interaction-rules on kilobots to study @color[#FFBB00](leader-follower dynamics), and their impact on information transfer and collective decision-making processes.
+- Leader-follower relationships.
+  - @color[#FFBB00](Information transfer and collective decision-making.)
+  - @color[#FFBB00](Different social and environmental contexts.)
 
 - Relate their behavior with those of animal collectives.
 
-- Contribute with collective algorithms with which robots swarms can efficiently fulfill complex tasks.
+- Contribute with collective algorithms to complete complex tasks.
 
----?image=kilobots_experimental.jpg&position=right&size=50%
+---?image=kilobos_experimental.jpg&position=right&size=50%
 ### @color[#FFBB00](Experimental setup)
 
 - 10 kilobots
@@ -360,11 +314,7 @@ Kilobots move in a smooth, flat and glossy surface: concretely a dry erase white
 @divend
 @ulend
 
-Note:
 
-- Kilobots rely only on distance sensing to obtain relative positions and orientations of nearby robots.
-
-Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, $d_{t}$ and the distance kilobot B moved from t-1 to t. $\beta$ angle is also shown.
 
 ---?image=random_walk.png&position=right&size=50%
 
@@ -373,24 +323,16 @@ Kilobot B localization of reference kilobot A by trilateration using $d_{t-1}$, 
 @div[left-50]
 - First stage of implementation
   - Chooses among six posible turning angles (62, 93, 124, 155, 186, 217)
-  - Turns and walks forward for 3cm
+  - Turns and walks forward 3 cm
+- Tuned based on Dimidov, et al. 2016
 @divend
 @ulend
----?image=kilombo_example.png&position=right&size=45%
-
-### @color[#FFBB00](KILOMBO)
-
-- Jansson et al. 2016
-
-- C-based kilobots simulator.
-
-- Efficient hypothesis testing.
 
 ---
 ### @color[#FFBB00](Algorithm implementation in kilombo and kilobots)
 http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 
-Falta video de kilobots.
+- Kilombo: C-based simulator for kilobots <span style="font-size:0.5em">(Janssen et al. 2016)</span>.
 
 ---?image=kilobot_future.png&position=right&size=30%
 
@@ -399,7 +341,7 @@ Falta video de kilobots.
 @ul[]
 - Mantain @color[#FFBB00](minimum distances) among neighoring kilobots while reaching the "leader"
 - Implement a @color[#FFBB00](distance-compensation mechanism) for followers to follow the "leader" while moving.
-- Compare @color[#FFBB00](reach-target efficiency) of random-walks vs. leader-following.
+- Compare @color[#FFBB00](reach-target-area efficiency) of random-walks vs. leader-following.
 @ulend
 @divend
 
@@ -407,23 +349,20 @@ Falta video de kilobots.
 - @color[#FFBB00](Implement leader-follower dynamics:)
 @ul[]
 @div[left-50]
-  - Familiarity.
-  - Information on food sources.
-  - Predation-risk.
-@divend
-@div[right-50]
 - Number of neighbors.
 - Preferred relative position.
 - Tendency to move to specific direction.
 @divend
+@div[right-50]
+- Familiarity.
+- Information on food sources.
+- Predation-risk.
+@divend
 
 - @color[#FFBB00](Information transfer and decision-making effiency on the direction of motion.)
-  - Record and obtain trajectories.
-  - Communication network
-  - Hierarchical leadership network
+
 @ulend
-Note:
-the interaction rules of some kilobots will be modified so that leader-follower dynamics are fomented. Interaction rules with the potential to be varied are the number of neighbours a kilobot pays attention to, its preferred speed and relative position or the level of information it possesses, expressed in the tendency to move to a preferred direction. Also, the proportion of kilobots with different interaction rules will be varied to investigate possible adaptive strategies that facilitate cohesion, but at the same time grant spatial exploration and coordination of motion properties to the group.
+
 ---
 ### @color[#FFBB00](WORK PLAN)
 
@@ -446,7 +385,7 @@ the interaction rules of some kilobots will be modified so that leader-follower 
 # THANK YOU
 
 ----
-
+#
 ----
 
 
