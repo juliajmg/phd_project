@@ -124,7 +124,7 @@ Note:
 ---
 
 ### @color[#FFBB00](Phase transition as a function of velocity)
-@div[left-50]
+@div[left-60]
 @ul[brighten]
 
 - Observations on @color[#FFBB00](fish):
@@ -134,7 +134,7 @@ Note:
 @ulend
 @divend
 
-@div[right-50]
+@div[right-40]
 ![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 @divend
 
