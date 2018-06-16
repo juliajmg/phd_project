@@ -263,7 +263,8 @@ Aquí podría mostrar un video.
 @div[left-65]
 - @color[#FFBB00](On-board computation power):  
 
-- <span style="font-size:0.5em">ATmega 328p microcontroller as CPU, with 32KB of memory</span>
+- <span style="font-size:0.5em">ATmega 328p microcontroller as CPU, with 32KB of memory</span>  
+
 
 - @color[#FFBB00](Nearby-robots communication and distance sensing:)  
 
