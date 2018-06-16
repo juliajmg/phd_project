@@ -362,16 +362,14 @@ http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 ---
 - @color[#FFBB00](Implement leader-follower dynamics:)
 @ul[]
-@div[left-50]
+
 - Number of neighbors.
 - Preferred relative position.
 - Tendency to move to specific direction.
   - Familiarity, information on food sources or predation-risk.
-@divend  
-@ulend 
+@ulend
+
 - @color[#FFBB00](Information transfer and decision-making effiency on the direction of motion.)
-
-
 
 ---
 ### @color[#FFBB00](WORK PLAN)
