@@ -260,7 +260,6 @@ Aquí podría mostrar un video.
 
 ---?image=Kilobot_description.png&position=right&size=40% 90%
 #### Description
-@ul[]
 @div[left-65]
 - @color[#FFBB00](On-board computation power):
   - <span style="font-size:0.5em">ATmega 328p microcontroller as CPU, with 32KB of memory</span>
@@ -274,7 +273,7 @@ Aquí podría mostrar un video.
 - @color[#FFBB00](Display current state:)
   - <span style="font-size:0.5em">RGB LED light.</span>
 @divend
-@ulend
+
 Note:
 
 
