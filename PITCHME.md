@@ -34,7 +34,7 @@
 @ulend
 @divend
 
----?image=fish_tracking.png&position=right&size=20% 60%
+---?image=fish_tracking.png&position=right&size=30%
 ### @color[#FFBB00](The study of collective motion)
 @ul[brighten]
 - Universality of the phenomenon.
