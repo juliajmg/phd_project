@@ -127,7 +127,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 ---
 
 ### @color[#FFBB00](Phase transition as a function of velocity)
-@div[left-65]
+@div[left-50]
 @ul[brighten]
 
 - Observations on fish collective motion:
@@ -137,7 +137,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 @ulend
 @divend
 
-@div[right-35]
+@div[right-50]
 ![Video](https://www.youtube.com/embed/SIg5d_mi92k)
 @divend
 
