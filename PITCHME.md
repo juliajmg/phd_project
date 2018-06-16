@@ -72,10 +72,10 @@
 
 - Model of self-propelled particles (SPP).  
 
-- Update position:
+- @color[#FFBB00](Update position:)
 `$$ \vec{x_{i}}(t + \Delta t) = \vec{x_{i}(t)} + \vec{v_{i}}(t)\Delta t $$`
 
-- Update orientation:
+- @color[#FFBB00](Update orientation:)
 `$$ \theta(t + \Delta t) = \langle\theta(t) \rangle_{R_0} + \xi_{i}(t) $$`
 
 
