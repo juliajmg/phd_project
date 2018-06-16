@@ -359,7 +359,7 @@ http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 @ulend
 @divend
 
----?image=v_formation.png&position=right&size=50%
+---?image=v_formation.png&position=right&size=40%
 - @color[#FFBB00](Implement leader-follower dynamics:)
 @ul[]
 @div[left-60]
@@ -367,10 +367,11 @@ http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 - Preferred relative position.
 - Tendency to move to specific direction.
   - Familiarity, information on food sources or predation-risk.
-
 - @color[#FFBB00](Information transfer and decision-making effiency on the direction of motion.)
+
 @divend
 @ulend
+
 ---
 ### @color[#FFBB00](WORK PLAN)
 
