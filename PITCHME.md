@@ -21,9 +21,9 @@
 @ul[brighten]
 <span style="font-size:0.9em">
 - Similar individual units that **interact**:
-  - Speed
-  - Direction of motion
-  - Distance to each other.
+  - @color[#FFBB00](Speed.)
+  - @color[#FFBB00](Direction of motion.)
+  - @color[#FFBB00](Distance to each other.)
 
 - No central control: self-organization.
 
@@ -33,35 +33,6 @@
 </span>
 @ulend
 @divend
-
-Note:
-- Collective motion is a type of behavior that consists of similar agents interacting in such a way that they achieve a coherent group displacement. By coherent i mean they adjust their speed, direction of motion and distance to each other to achieve cohesion and synchronization.
-
-- This is done without any central control, i.e. the system self-organizes.
-
-- From the way agents interact, different phases can emerge: from disorganized aggregations to coordinated and polarized groups.
-
-- Moving collectively endows with adaptive properties to individuals, specially on foraging (like finding food more rapidly), and in anti-predation strategies (like, the dilution effect, that decreases individuals probability of being taken by a predator as group size increases, or the many-eyes effect that increases the probability of detecting a predator more rapidly). And due to this adaptive advantage collective motion is observed in a wide range of biological systems; including bacterial colonies, social insects, fish schools, bird flocks and human crowds.
-
-- The different ways in which individuals interact give flexibility to a group in decision-making and information transfer processes. They seem to be the source of the diversity of structures and dynamics of collective motion observed in nature. In recent theoretical and experimental works, these differences have been explored, and it has been shown that animals can be subject to both behavioral group and individual variations.
-
-Global variations
-
-- Group variation refers to changes in the frequency and the force by which individuals interact (By force i mean individuals' probability of responding to the movements of their neighbors), without changing the rules of interaction *per se*.
-
-- Group variation can occur as a response to an external perturbation, to internal states, or to different stages of development.
-
-- This variation expresses in groups' capacity to exhibit mutiple stable collective states: swarming to schooling to milling.
-
-Individual variations
-
-- Individual variation expresses in the difference in the rules of interaction within a group.
-
-- This can be a consequence of factors that affect the preferred individual's speed and direction (different body sizes, specific internal states) or to intrinsic differences in their behavior (more experiences individuals, familiarity, socially dominant) that change attention an individual puts on their neighbors in decision making processes.
-
-- Individual variation often causes the emergence of leader-follower dynamics (i.e. variations in individuals' probability to follow others).
-
-These variations are relevant to understand which strategies groups can adopt to transfer information and endow some members with greater weight in the collective decision-making.
 
 ---?image=study_approaches-1.png&position=right&size=20% 60%
 ### @color[#FFBB00](The study of collective motion)
@@ -77,14 +48,6 @@ These variations are relevant to understand which strategies groups can adopt to
 
 @divend
 @ulend
-Note:
-- The underlying fundamental principles of collective motion are usually generalized, and therefore nearly independent of the specific details relative to the behavior of individual components, so they are transferable between systems of different nature. This characteristic is known as universality, and coupled with the many technological applications inspired by collective models, has attracted the attention of statistical physicists and theoretical biologists, as well as experimental scientists.
-
-- In theoretical approximations, the mechanisms by which local interactions between agents generate emergent global patterns is investigated with models of self-propelled particles with interaction rules that can be varied.
-
-- In experimental approaches, the advances in tracking and image technologies have enabled to obtain high precision data of animals on the move and make and accurate analysis of individual behavior.
-
-- With this data, it is possible to compare the observations with simulated data results, and infer the underlying mechanisms of communication in collective motion events.
 
 ---
 
@@ -96,7 +59,7 @@ Note:
     - @color[#FFBB00](Information transfer)
     - @color[#FFBB00](Decision-making)
 
-- Compare emergent behaviors with those observed in animal collectives with flocking behavior.
+- Compare emergent behaviors with those observed in animals that exhibit collective motion.
 @ulend
 
 ---
@@ -134,16 +97,12 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 
 - Velocity $v_{0}$
 
-- Noise amplitude $\eta$: <span style="font-size:0.6em; color:#FFBB00">white noise uniformly distributed in $[-\pi , \pi]$</span>
+- Noise $\xi$: <span style="font-size:0.6em; color:#FFBB00">white noise uniformly distributed in $[-\pi\eta , \pi\eta]$</span>
 
 - Order parameter $\phi$:<span style="font-size:0.6em; color:#FFBB00">Average normalized velocity,</span>
 
 `$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$`
 
-
-Note:
-The parameters of the model are the density of particles, meaning, the number of particles N in a volume. The velocity v_0, the noise amplitude and the order parámeter phi.
-**ESTO NECESITA PRÁCTICA**
 ---
 ## @color[#FFBB00](Phase transitions in the Vicsek model)
 
@@ -151,13 +110,15 @@ The parameters of the model are the density of particles, meaning, the number of
 
 - As a function of $\eta$
 - As a function of $\rho$
+
+$$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
 @divend
 
 @div[right-50]
 ![Vicsek1995](phi_vs_eta_Nvariable.png)
 @divend
 
-$$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
+
 
 
 ---?image=Figure_S10.png&position=right&size=20% 60%
