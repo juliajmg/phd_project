@@ -262,16 +262,16 @@ Aquí podría mostrar un video.
 #### Description
 @div[left-65]
 - @color[#FFBB00](On-board computation power):
-  - <span style="font-size:0.5em">ATmega 328p microcontroller as CPU, with 32KB of memory</span>
+- <span style="font-size:0.5em">ATmega 328p microcontroller as CPU, with 32KB of memory</span>
 
 - @color[#FFBB00](Nearby-robots communication and distance sensing:)
-  - <span style="font-size:0.5em">Infrared (IR) with 10 cm radius.</span>
+- <span style="font-size:0.5em">Infrared (IR) with 10 cm radius.</span>
 
 - @color[#FFBB00](Differential drive locomotion:)
-  - <span style="font-size:0.5em">Rotate at 45º/s and go forward 1cm/s.</span>
+- <span style="font-size:0.5em">Rotate at 45º/s and go forward 1cm/s.</span>
 
 - @color[#FFBB00](Display current state:)
-  - <span style="font-size:0.5em">RGB LED light.</span>
+- <span style="font-size:0.5em">RGB LED light.</span>
 @divend
 
 Note:
