@@ -131,7 +131,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 @ul[brighten]
 
 - Observations on @color[#FFBB00](fish):
-  - <span style="font-size:0.8em">Higher polarization ($\phi$) at higher swimming speeds ($v_0$). </span> <span style="font-size:0.5em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
+  - <span style="font-size:0.7em">Higher polarization ($\phi$) at higher swimming speeds ($v_0$). </span> <span style="font-size:0.5em; color:#FFBB00">Gautrais et al. 2012; Tunstrom et al. 2013, Rieucau et al. 2014</span>
 
 - @color[#FFBB00](Is the disorder-to-order phase transition reproducible in a model as simple as the Vicsek model?)
 @ulend
@@ -191,9 +191,6 @@ First, noise amplitude values were chosen for which both order and disorder stat
 
 Note:
 
-**FALTA: Hacer análisis de por qué ocurre esto!
-Anotar los valores de eta en cada una**
-
 For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 
 ---?image=Phi_vs_v0_rho01a1_eta03a06_big.png&position=right&size=50%
@@ -211,16 +208,18 @@ For each $\eta$, a value of $\rho$ was chosen where a transition was observed.
 Note:
 Which means that with little increase in velocity, theres an increase of factor 10 in the average polar order?
 
----?image=risk_avoidance.png&position=right&size=50%
+---
 ### @color[#FFBB00](Potential adaptive behavior in fish)
 @div[left-50]
-@ul[]
-- A rapid increase in polarization at critical velocity value:
-  - Advantage for fish in predation risk avoidance.
-
-@ulend
+![phi_v0_rho](Phi_vs_v0_rho01a1_eta03a06_big.png)
 @divend
 
+@divend
+@div[right-50]
+![fish_velocity](risk_avoidance.png)
+Note:
+- A rapid increase in polarization at critical velocity value:
+  - Advantage for fish in predation risk avoidance.
 ---?image=zebrafish.png&position=right&size=50%
 #### @color[#FFBB00](FUTURE WORK)
 
