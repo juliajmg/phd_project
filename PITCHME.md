@@ -359,10 +359,10 @@ http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 @ulend
 @divend
 
----
+---?image=v_formation.png&position=right&size=50%
 - @color[#FFBB00](Implement leader-follower dynamics:)
 @ul[]
-
+@div[left-60]
 - Number of neighbors.
 - Preferred relative position.
 - Tendency to move to specific direction.
@@ -370,7 +370,7 @@ http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 @ulend
 
 - @color[#FFBB00](Information transfer and decision-making effiency on the direction of motion.)
-
+@divend
 ---
 ### @color[#FFBB00](WORK PLAN)
 
