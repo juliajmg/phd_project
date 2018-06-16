@@ -109,9 +109,12 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 @div[left-50]
 
 - As a function of $\eta$
+
+`$$ \Phi \sim [\eta_{c}(\rho) - \eta]^\beta $$`
+
 - As a function of $\rho$
 
-$$ \theta \sim [\eta_{c}(\rho) - \eta]^\beta $$
+
 @divend
 
 @div[right-50]
