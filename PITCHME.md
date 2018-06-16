@@ -68,7 +68,7 @@
 
 ---?image=Vicsek_dynamics.png&position=right&size=35%
 
-## @color[#FFBB00](Vicsek model) Vicsek et al. (1995).  
+## @color[#FFBB00](Vicsek model) <span style="font-size:0.8em">Vicsek et al. (1995).</span>  
 
 - Model of self-propelled particles (SPP).  
 
