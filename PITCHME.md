@@ -110,7 +110,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 
 - As a function of $\eta$
 
-`$$ \Phi \sim [\eta_{c}(\rho) - \eta]^\beta $$`
+`$$ \phi \sim [\eta_{c}(\rho) - \eta]^\beta $$`
 
 - As a function of $\rho$
 
@@ -124,7 +124,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 
 
 
----?image=Figure_S10.png&position=right&size=20% 60%
+---
 
 ### @color[#FFBB00](Phase transition as a function of velocity)
 @div[left-65]
@@ -137,6 +137,9 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 @ulend
 @divend
 
+@div[right-35]
+![Video](https://www.youtube.com/embed/SIg5d_mi92k)
+@divend
 
 Note:
 Nevertheless, to our knowledge there is very few literature related to the model's dependence on particles velocity, so we wanted to fill this gap by focusing on the effect of increasing $v_{0}$ on the ordering of the system.
@@ -145,7 +148,7 @@ The occurrence of a velocity dependent phase transition has been detected in var
 
 Here, we want to prove if it is possible to reproduce the velocity-dependent disorder to order phase transition in fish collectives in a model as simple as the Vicsek model.
 
-
+?image=Figure_S10.png&position=right&size=20% 60%
 
 ![Video](https://www.youtube.com/embed/xYl4m0xFcCU)
 
