@@ -378,10 +378,10 @@ http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 
 | @color[#FFBB00](Period)                  | @color[#FFBB00](Activity)                                                                                   
 | ------------------------ | ------------------------------------------------------------------------------------------------- |
-| <span style="font-size:0.5em">Second year, 1-6 months</span>  | <span style="font-size:0.5em">1. Modification and analysis of the Vicsek model to study phase transition with variable velocity.  2.  Finish reach algorithm for kilobots, and implement variation of rules. 3. Adquisition of around 150 kilobots for experimentation. </span>                                        |     
-| <span style="font-size:0.5em">Second year, 6-12 months</span> | <span style="font-size:0.5em">1. Recording and image processing of kilobots behavior under different algorithms. 2. Recording and image processing of groups of zebrafish on an experimental tank. </span>                   |     
-|<span style="font-size:0.5em"> Third year, 1-6 months  </span> |<span style="font-size:0.5em">1.  Analysis of kilobots results on leader-follower dynamics. 2. Comparison of fish experimental data with simulated data.</span>                                         |     
-|<span style="font-size:0.5em">Third year 6-12 months </span>  |<span style="font-size:0.5em"> Results publications, thesis writing and disertation.</span>                                                                                          |     
+| <span style="font-size:0.5em; color:#FFBB00">Second year, 1-6 months</span>  | <span style="font-size:0.5em">1. Modification and analysis of the Vicsek model to study phase transition with variable velocity.  2.  Finish reach algorithm for kilobots, and implement variation of rules. 3. Adquisition of around 150 kilobots for experimentation. </span>                                        |     
+| <span style="font-size:0.5em; color:#FFBB00">Second year, 6-12 months</span> | <span style="font-size:0.5em">1. Recording and image processing of kilobots behavior under different algorithms. 2. Recording and image processing of groups of zebrafish on an experimental tank. </span>                   |     
+|<span style="font-size:0.5em; color:#FFBB00"> Third year, 1-6 months  </span> |<span style="font-size:0.5em">1.  Analysis of kilobots results on leader-follower dynamics. 2. Comparison of fish experimental data with simulated data.</span>                                         |     
+|<span style="font-size:0.5em; color:#FFBB00">Third year 6-12 months </span>  |<span style="font-size:0.5em"> Results publications, thesis writing and disertation.</span>                                                                                          |     
 </span>
 ---
 
