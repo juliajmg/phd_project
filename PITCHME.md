@@ -286,7 +286,6 @@ Aquí podría mostrar un video.
 
 @divend
 
-Note:
 
 
 ---?image=Overhead_controller.png&position=right&size=50%
@@ -308,15 +307,6 @@ Note:
 
 - Contribute with collective algorithms to complete complex tasks.
 
----?image=kilobos_experimental.jpg&position=right&size=50%
-### @color[#FFBB00](Experimental setup)
-
-- 10 kilobots
-- Smooth dry-erase whiteboard
-- Overhead controller
-- Charger
-- Kilobot controller software
-
 
 ---?image=reach_algorithm.png&position=right&size=50%
 ### @color[#FFBB00](REACH ALGORITHM)
@@ -332,7 +322,13 @@ Note:
 @divend
 @ulend
 
+Note:
 
+- 10 kilobots
+- Smooth dry-erase whiteboard
+- Overhead controller
+- Charger
+- Kilobot controller software
 
 ---?image=random_walk.png&position=right&size=50%
 
@@ -375,7 +371,9 @@ http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
 - Familiarity.
 - Information on food sources.
 - Predation-risk.
-@divend
+@divend  
+
+
 
 - @color[#FFBB00](Information transfer and decision-making effiency on the direction of motion.)
 
