@@ -103,7 +103,7 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 
 `$$ \phi = \frac{1}{N v_{0}} \left| \sum_{i=1}^{N} \vec{v_{i}} \right| $$`
 
----
+---?image=vicsek_graphs-1.png&position=right&size=40%
 ## @color[#FFBB00](Phase transitions in the Vicsek model)
 
 @div[left-50]
@@ -117,12 +117,9 @@ This model describes the dynamics of a collection of SPPs moving at a constant v
 
 @divend
 
-@div[right-50]
+Note:
+
 ![Vicsek1995](phi_vs_eta_Nvariable.png)
-@divend
-
-
-
 
 ---
 
