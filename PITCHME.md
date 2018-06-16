@@ -233,7 +233,7 @@ Note:
 Note:
 Aquí podría mostrar un video.
 
----?image=variable_v0.png&position=right&size=50%
+---?image=variable_v0.png&position=right&size=40%
 #### @color[#FFBB00](Variable velocity within the system on the Vicsek model)
 @ul[brighten]
 @div[left-70]
