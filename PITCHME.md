@@ -253,7 +253,9 @@ Aquí podría mostrar un video.
   - Low-cost.
   - Small (~3cm of diameter).
   - Scalable.
-- <span style="font-size:0.5em">Collective decision-making, space exploration, collective transport of objects.</span>
+- <span style="font-size:0.5em">Collective decision-making.</span>
+- <span style="font-size:0.5em">Space exploration.</span>
+- <span style="font-size:0.5em">Collective transport of objects.</span>
 @ulend
 
 ---?image=Kilobot_description.png&position=right&size=40% 90%
