@@ -391,6 +391,6 @@ Note:
 
 ### REFERENCES
 
----
+---?image=human_crowd.png
 
 # THANK YOU
