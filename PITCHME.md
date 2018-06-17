@@ -308,10 +308,11 @@ Aquí podría mostrar un video.
 
 ---?image=reach_algorithm.png&position=right&size=50%
 ### @color[#FFBB00](REACH ALGORITHM)
-@ul[]
+
 @div[left-50]
-- Localization only by distance sensing
-- First test algorithm
+- Localization only by distance sensing.
+
+- First test algorithm.
 
 - Purpose: For kilobots to reach a "leader", no matter their initial configuration.
 
@@ -331,14 +332,15 @@ Note:
 ---?image=random_walk.png&position=right&size=50%
 
 #### @color[#FFBB00](RANDOM-WALK-BASED SEARCH)
-@ul[brighten]
+
 @div[left-50]
 - First stage of implementation
   - Chooses among six posible turning angles.
   - Turns and walks forward 3 cm
+
 - Tuned based on Dimidov, et al. 2016
 @divend
-@ulend
+
 
 ---
 ### @color[#FFBB00](Algorithm implementation in kilombo and kilobots)
