@@ -77,7 +77,7 @@
 
 ---?image=Vicsek_dynamics.png&position=right&size=35%
 
-## @color[#FFBB00](Vicsek model) <span style="font-size:0.8em">Vicsek et al. (1995).</span>  
+## @color[#FFBB00](Vicsek model) <span style="font-size:0.5em">Vicsek et al. (1995).</span>  
 
 - Model of self-propelled particles (SPP).  
 
@@ -112,6 +112,7 @@
 `$$ \phi \sim [\eta_{c}(\rho) - \eta]^\beta $$`
 
 - As a function of $\rho$
+
 `$$ \phi \sim [\rho - \rho_c(\eta)]^\delta $$`
 
 @divend
@@ -243,16 +244,17 @@ Aquí podría mostrar un video.
 ---?image=kilobotswarm.jpg&position=right&size=45%
 
 ## @color[#FFBB00](Kilobots)
-@ul[brighten]
+
 - Designed as swarm robots:
   - Simple.
   - Low-cost.
   - Small (~3cm of diameter).
   - Scalable.
+
 - <span style="font-size:0.5em">Collective decision-making.</span>
 - <span style="font-size:0.5em">Space exploration.</span>
 - <span style="font-size:0.5em">Collective transport of objects.</span>
-@ulend
+
 
 ---?image=Kilobot_description.png&position=right&size=40% 90%
 #### Description
@@ -392,31 +394,3 @@ Note:
 ---
 
 # THANK YOU
-
-----
-#
-----
-
-
-## @color[#FFBB00](Phase transitions in the Vicsek model)
-
-- First order vs. Second order phase transition as a function of $\eta$:
-
-@div[left-50]
-<span style="font-size:0.6em; color:grey">Vicsek et al. 1995</span>
-![Vicsek1995](phi_vs_eta_Nvariable.png)
-
-@divend
-
-@div[right-50]
-<span style="font-size:0.6em; color:grey">Gregoire and Chaté, 2008</span>
-![Chate2008](FirstTransitionEvidence.png)
-
-@divend
-
-Note:
-Phase transitions in the Vicsek model have been particularly subject for debate. In their first paper, Vicsek and company showed that when $\eta$ is increased, the system undergoes a phase transition from an ordered state where all the particles move in the same direction, to a disordered state where the particles move in random directions. They categorized the order-to-disorder phase transition as a second-order transition occurring at a critical noise value.
-Nevertheless, Gregoire and Chaté, in 2008, analyzed the Vicsek model with larger system sizes with many more particles moving at higher velocities, and they found a order-to-disorder first-order transition.
-**FALTA: VER CONDICIONES DE SIMULACIÓN DE CHATÉ, Y EN QUÉ VA ESA DISCUSIÓN**
-
-- This has resulted in a number of studies investigating phase transitions varying system's parameters \cite{Aldana2009}.
