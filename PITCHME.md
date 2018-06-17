@@ -218,11 +218,11 @@ Note:
 ---?image=zebrafish.png&position=right&size=50%
 #### @color[#FFBB00](FUTURE WORK)
 
-@div[left-50]
+@div[left-65]
 @ul[brighten]
 - @color[#FFBB00](Velocity induced phase transition in fish)
   - Experimental data of zebrafish (*Danio rerio*)
-  - Recording and image processing of fish reacting to predation stimulus.
+  - Fish reacting to predation stimulus.
 @ulend
 ![Video](https://www.youtube.com/embed/BbuxbeLGYK8)
 @divend
