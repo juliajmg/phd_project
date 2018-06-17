@@ -1,6 +1,6 @@
 ---?image=flocking_1.jpg&opacity=40
 ## @color[#FFBB00](EFFECT OF INTERACTION-RULES VARIATION ON COLLECTIVE MOTION SYSTEMS)
-@ul[brighten]
+
 - @color[#FFBB00](**Julia Múgica Gallart**)
 
 - @color[#FFBB00](**Thesis directors:**)
@@ -8,7 +8,7 @@
   - @color[#FFBB00](**Dr. Romualdo Pastor-Satorras**)
 
   - @color[#FFBB00](**Dra. M. Carmen Miguel López**)
-@ulend
+
 
 ---?image=flocking_birds.jpg&position=right&size=50% 100%
 
@@ -96,7 +96,7 @@
 
 - Velocity $v_{0}$
 
-- Noise $\xi$: <span style="font-size:0.6em; color:#FFBB00">white noise uniformly distributed in $[-\pi\eta , \pi\eta]$</span>
+- Noise $\xi$: <span style="font-size:0.6em; color:#FFBB00">random variable uniformly distributed in $[-\pi\eta , \pi\eta]$</span>
 
 - Order parameter $\phi$:<span style="font-size:0.6em; color:#FFBB00">Average normalized velocity,</span>
 
