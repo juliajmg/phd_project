@@ -158,7 +158,7 @@ Buscar rangos de velocidades en peces.
 
 ### @color[#FFBB00](To fix $\eta$)
 @div[left-50]
-@ul[brighten]
+
 
 
 - Values of $\eta$ where disorder and order states are observed
@@ -167,7 +167,7 @@ Buscar rangos de velocidades en peces.
 - <span style="font-size:0.5em">$\rho$ = 0.8 </span>
 
 - $\eta$ = 0.3, 0.4, 0.5 and 0.6
-@ulend
+
 @divend
 
 
