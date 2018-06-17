@@ -285,7 +285,7 @@ Aquí podría mostrar un video.
 
 
 ---?image=Overhead_controller.png&position=right&size=50%
-### @color[#FFBB00](Overhead controller and software)
+### @color[#FFBB00](Experimental setup)
 @div[left-40]
 
 ![KiloGUI](KiloGUI.png)
@@ -332,17 +332,13 @@ Note:
 @ul[brighten]
 @div[left-50]
 - First stage of implementation
-  - Chooses among six posible turning angles (62, 93, 124, 155, 186, 217)
+  - Chooses among six posible turning angles.
   - Turns and walks forward 3 cm
 - Tuned based on Dimidov, et al. 2016
 @divend
 @ulend
 
 ---
-### @color[#FFBB00](Algorithm implementation in kilombo and kilobots)
-
-
-- Kilombo: C-based simulator for kilobots <span style="font-size:0.5em">(Janssen et al. 2016)</span>.
 @div[left-50]
 ![Kilombo](https://www.youtube.com/embed/xxtlPGXNfKQ)
 @divend
