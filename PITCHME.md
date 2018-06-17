@@ -335,9 +335,8 @@ Note:
 
 @div[left-50]
 - First stage of implementation.
-  - Chooses among six posible turning angles.
-  - Turns and walks forward 3 cm.
-
+  - Choose among six turning angles.
+  - Turn and walk forward 3 cm.
 - Tuned based on Dimidov, et al. 2016
 @divend
 
