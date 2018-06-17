@@ -339,6 +339,10 @@ Note:
 @ulend
 
 ---
+### @color[#FFBB00](Algorithm implementation in kilombo and kilobots)
+
+
+- Kilombo: C-based simulator for kilobots <span style="font-size:0.5em">(Janssen et al. 2016)</span>.
 @div[left-50]
 ![Kilombo](https://www.youtube.com/embed/xxtlPGXNfKQ)
 @divend
