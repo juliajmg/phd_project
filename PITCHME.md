@@ -61,13 +61,15 @@
 
 ## @color[#FFBB00](GOALS)
 @ul[brighten]
-- Study the impact of the variation in group and individual interaction-rules:
+- Study the impact of the variation in collective systems interaction-rules:
 
     - @color[#FFBB00](Ordering)
     - @color[#FFBB00](Information transfer)
     - @color[#FFBB00](Decision-making)
 
 - Compare emergent behaviors with those observed in animals that exhibit collective motion.
+
+- Numeric simulations and experimental data
 @ulend
 
 ---
@@ -80,11 +82,11 @@
 
 - Model of self-propelled particles (SPP).  
 
-- @color[#FFBB00](Update position:)
-`$$ \vec{x_{i}}(t + \Delta t) = \vec{x_{i}(t)} + \vec{v_{i}}(t)\Delta t $$`
-
 - @color[#FFBB00](Update orientation:)
 `$$ \theta(t + \Delta t) = \langle\theta(t) \rangle_{R_0} + \xi_{i}(t) $$`
+
+- @color[#FFBB00](Update position:)
+`$$ \vec{x_{i}}(t + \Delta t) = \vec{x_{i}(t)} + \vec{v_{i}}(t)\Delta t $$`
 
 ---
 
@@ -388,11 +390,6 @@ Note:
 |<span style="font-size:0.5em; color:#FFBB00"> Third year, 1-6 months  </span> |<span style="font-size:0.5em">1.  Analysis of kilobots results on leader-follower dynamics. 2. Comparison of fish experimental data with simulated data.</span>                                         |     
 |<span style="font-size:0.5em; color:#FFBB00">Third year 6-12 months </span>  |<span style="font-size:0.5em"> Results publications, thesis writing and disertation.</span>                                                                                          |     
 </span>
----
-
-
-
-### REFERENCES
 
 ---?image=human_crowd.png&size=80%
 
