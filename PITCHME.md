@@ -12,16 +12,17 @@
 
 ---?image=flocking_birds.jpg&position=right&size=50% 100%
 
+## @color[#FFBB00](OVERVIEW)
+@ul[brighten]
 @div[left-50]
-##  @color[#FFBB00](OVERVIEW)
-
 - Introduction
   - Collective motion
 - Main goals
 - Preliminary results
   - Vicsek model of SPPs
   - Kilobots
-@divend 
+@divend
+@ulend
 
 ---?image=collective_motion.png&position=right&size=36% 60%
 ## @color[#FFBB00](Collective motion)
