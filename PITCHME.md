@@ -218,7 +218,7 @@ Note:
 ---?image=zebrafish.png&position=right&size=50%
 #### @color[#FFBB00](FUTURE WORK)
 
-@div[left-65]
+@div[left-55]
 @ul[brighten]
 - @color[#FFBB00](Velocity induced phase transition in fish)
   - Experimental data of zebrafish (*Danio rerio*)
