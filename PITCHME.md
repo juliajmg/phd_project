@@ -13,7 +13,7 @@
 ---?image=flocking_birds.jpg&position=right&size=50% 100%
 
 ## @color[#FFBB00](OVERVIEW)
-@ul[brighten]
+
 
 - Introduction
   - Collective motion
@@ -22,7 +22,6 @@
   - Vicsek model of SPPs
   - Kilobots
 
-@ulend
 
 ---?image=collective_motion.png&position=right&size=36% 60%
 ## @color[#FFBB00](Collective motion)
