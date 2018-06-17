@@ -14,14 +14,14 @@
 
 ## @color[#FFBB00](OVERVIEW)
 @ul[brighten]
-@div[left-60]
+
 - Introduction
   - Collective motion
 - Main goals
 - Preliminary results
   - Vicsek model of SPPs
   - Kilobots
-@divend
+
 @ulend
 
 ---?image=collective_motion.png&position=right&size=36% 60%
