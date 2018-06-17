@@ -334,9 +334,9 @@ Note:
 #### @color[#FFBB00](RANDOM-WALK-BASED SEARCH)
 
 @div[left-50]
-- First stage of implementation
+- First stage of implementation.
   - Chooses among six posible turning angles.
-  - Turns and walks forward 3 cm
+  - Turns and walks forward 3 cm.
 
 - Tuned based on Dimidov, et al. 2016
 @divend
