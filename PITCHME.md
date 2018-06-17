@@ -334,6 +334,7 @@ Note:
 #### @color[#FFBB00](RANDOM-WALK-BASED SEARCH)
 
 @div[left-50]
+@ul[brighten]
 - First stage of implementation.
 
   - Choose among six turning angles.
@@ -341,7 +342,7 @@ Note:
   - Turn and walk forward 3 cm.
 
 - Tuned based on Dimidov, et al. 2016.
-
+@ulend
 @divend
 
 
