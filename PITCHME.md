@@ -14,7 +14,7 @@
 
 ## @color[#FFBB00](OVERVIEW)
 @ul[brighten]
-@div[left-50]
+@div[left-60]
 - Introduction
   - Collective motion
 - Main goals
