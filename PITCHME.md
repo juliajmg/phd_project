@@ -87,16 +87,6 @@
 - @color[#FFBB00](Update orientation:)
 `$$ \theta(t + \Delta t) = \langle\theta(t) \rangle_{R_0} + \xi_{i}(t) $$`
 
-
-
-Note:
-We chose the Vicsek model for our numeric simulations to investigate changes in the ordering of the system as a function of particles' velocity.
-
-The Vicsek model is the first model designed to quantitatively interpret flocking behaviors. It represents the simplest model displaying a transition to collective motion similar to
-the one observed in flocks (schools, herds). This is achieved by taking into account the natural perturbation a flock is affected by, integrating it as a random "noise" angle that deviates the direction of motion of every particle.
-
-This model describes the dynamics of a collection of SPPs moving at a constant velocity, and at each time unit, each particle $i$ changes its orientation depending on both the average orientation of its neighbors (defined by a neighborhood of radius $R_{0}$ centered on $i$) and a noise term representing perturbations.
-
 ---
 
 ### @color[#FFBB00](Parameters:)
@@ -174,13 +164,12 @@ Buscar rangos de velocidades en peces.
 - Values of $\eta$ where disorder and order states are observed
 - <span style="font-size:0.5em">N = 10,000</span>
 - <span style="font-size:0.5em">Time = 100,000</span>
-- <span style="font-size:0.5em">$\rho$ = 2 </span>
+- <span style="font-size:0.5em">$\rho$ = 0.8 </span>
 
 - $\eta$ = 0.3, 0.4, 0.5 and 0.6
 @ulend
 @divend
-Note:
-First, noise amplitude values were chosen for which both order and disorder states were observed for different $v_0$ values. We did different simulations for each eta value fixed of 0.3, 0.4, 0.5 and 0.6 as an exploratory analysis.  
+
 
 ---?image=Phi_vs_v0a5_vs_rhoa2_eta03a06_surface_plot_big.png&position=right&size=35%
 
@@ -235,6 +224,7 @@ Note:
   - Experimental data of zebrafish (*Danio rerio*)
   - Recording and image processing of fish reacting to predation stimulus.
 @ulend
+![Video](https://www.youtube.com/embed/BbuxbeLGYK8)
 @divend
 Note:
 Aquí podría mostrar un video.
