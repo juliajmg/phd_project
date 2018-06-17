@@ -342,7 +342,7 @@ Note:
   - Turn and walk forward 3 cm.
 
 - Tuned based on Dimidov, et al. 2016.
-@ulend
+@ulend  
 @divend
 
 
@@ -397,6 +397,6 @@ Note:
 
 ### REFERENCES
 
----?image=human_crowd.png
+---?image=human_crowd.png&size=80%
 
-# THANK YOU
+# @color[#FFBB00](THANK YOU)
