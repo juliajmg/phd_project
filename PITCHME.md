@@ -234,8 +234,8 @@ Aquí podría mostrar un video.
 @ul[brighten]
 @div[left-70]
 - Increase $v_0$ to critical value of only a fraction of particles
-- ¿ A disorder-to-order phase transition is still observed?
-- ¿Adaptive strategy in natural systems?
+- A disorder-to-order phase transition is still observed?
+- Adaptive strategy in natural systems?
 @divend
 @ulend
 
@@ -340,10 +340,15 @@ Note:
 
 ---
 ### @color[#FFBB00](Algorithm implementation in kilombo and kilobots)
-http://www.dropbox.com/s/70pa39b7hlc4wnh/kilombo.mp4
+
 
 - Kilombo: C-based simulator for kilobots <span style="font-size:0.5em">(Janssen et al. 2016)</span>.
-
+@div[left-50]
+![Kilombo](https://www.youtube.com/embed/xxtlPGXNfKQ)
+@divend
+@div[right-50]
+![Kilobots](https://www.youtube.com/embed/EZiKiAJZxRc)
+@divend
 ---?image=kilobot_future.png&position=right&size=30%
 
 ### @color[#FFBB00](FUTURE WORK)
